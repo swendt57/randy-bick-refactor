@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang:300,400,500,600,600i,700,700i|Sansita:700,700i|Roboto:300,400,500,600,700&display=swap');
+
+/* BS OR = Bootstrap Override */
+
+/*---------------General Styles---------------*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 5px;
+    background-color: #212529;
+    color: #e6e6e6;
+    padding-top: 60px;
+}
+
+
+/*---------------Colors---------------*/
+
+.default-color {
+    color: #e6e6e6;
+}
+
+/*---------------Header Styles---------------*/
+
+.company-name,
+.company-name-lg {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+.company-name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.company-name-lg {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*BS OR*/
+.navbar-brand {
+    margin-right: 8px;
+}
+
+/*BS OR*/
+.navbar-toggler {
+    padding: 4px;
+}
+
+/*BS OR*/
+.navbar {
+    background: #212529;
+    z-index: 2;
+}
+
+nav a {
+    color: #e6e6e6;
+}
