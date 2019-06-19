@@ -9,7 +9,7 @@ body {
     margin: 5px;
     background-color: #212529;
     color: #e6e6e6;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 
@@ -53,6 +53,7 @@ body {
 /*BS OR*/
 .navbar {
     background: #212529;
+    padding: 4px 8px;
     z-index: 2;
 }
 
