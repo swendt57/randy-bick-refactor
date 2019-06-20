@@ -71,3 +71,18 @@ nav a {
 div > img {
     padding: 5px;
 }
+
+/* TODO research using sass so I can include to other styles*/
+.splash-text {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    color: #a7a7a7;
+    width:100%;
+    padding:50px;
+}
+
+/*[img~=splash] {*/
+/*    text-align: right;*/
+/*}*/
