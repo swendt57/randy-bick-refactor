@@ -65,3 +65,9 @@ body {
 nav a {
     color: #e6e6e6;
 }
+
+/*---------------Splash Styles---------------*/
+
+div > img {
+    padding: 5px;
+}
