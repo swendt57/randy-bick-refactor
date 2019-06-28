@@ -2,6 +2,10 @@
 
 /* BS OR = Bootstrap Override */
 
+/* TODOs */
+/*change cursor to hand on hover*/
+/*change icon color on hover - not as easy as it sounds*/
+
 /*---------------General Styles---------------*/
 
 body {
@@ -144,13 +148,13 @@ div > img {
 
 #contact i {
     padding: 10px;
+    color: #e6e6e6;
 }
 
 footer hr {
     background: #e6e6e6;
     width: 65%;
     height: 2px;
-    align: center;
 }
 
 /* styles for tablet */
