@@ -129,16 +129,47 @@ div > img {
 
 
 /* TODO research using sass so I can include to other styles*/
-.splash-text {
-    font-family: "Fahkwang", sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    font-style: italic;
-    color: #a7a7a7;
-    width:100%;
-    padding:50px;
-}
+/*.splash-text {*/
+    /*font-family: "Fahkwang", sans-serif;*/
+    /*font-weight: 600;*/
+    /*font-size: 17px;*/
+    /*font-style: italic;*/
+    /*color: #a7a7a7;*/
+    /*width:100%;*/
+    /*padding:50px;*/
+/*}*/
 
 /*[img~=splash] {*/
 /*    text-align: right;*/
 /*}*/
+
+
+/*---------------Footer---------------*/
+
+#copyright {
+    font-size: .75rem;
+    padding: 0 20px 20px;
+    margin: 0;
+}
+
+#contact {
+    margin: 0;
+}
+
+#contact i {
+    padding: 10px;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    #copyright {
+        font-size: 1rem;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    #copyright {
+        font-size: 1.25rem;
+    }
+}
