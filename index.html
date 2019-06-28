@@ -19,20 +19,20 @@
         <nav class="navbar fixed-top navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="#!">
                 <span class="company-name default-color">
-                    <span class="company-name-lg">R</span>ANDY 
-                    <span class="company-name-lg">B</span>ICK 
+                    <span class="company-name-lg">R</span>ANDY
+                    <span class="company-name-lg">B</span>ICK
                     <span class="company-name-lg">P</span>HOTOGRAPHY
                 </span>
                 <br/>
                 <span class="company-name default-color">859-630-5496</span>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <!--FIXME - there should be a way to have the logo on the left and the buttons on the right without having to have an empty list that also collapses when needed-->
+
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                     <li class="nav-item"></li>
                 </ul>
@@ -61,9 +61,12 @@
         </nav>
     </header>
 
-    <section class="container-fluid">
+    <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->
+    <section class="container">
         <div class="row">
-            <div class="col-12 text-center"><img id="skyline" src="assets/images/skyline.jpg"></div>
+            <div class="col-12 text-center">
+                <img id="skyline" src="assets/images/skyline.jpg">
+            </div>
         </div>
         <div class="row">
             <div class="col-12 text-center">
@@ -71,64 +74,32 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 text-center"><img id="couple" src="assets/images/couple.jpg"></div>
+            <div class="col-12 text-center">
+                <img id="couple" src="assets/images/couple.jpg">
+            </div>
         </div>
     </section>
 
     <footer>
-        <div class="row">
-            <div class="col-12 text-center">
-                <p id="contact">Contact Us: <i class="fas fa-envelope"></i> <i class="fab fa-wpforms"></i> <i class="fab fa-facebook-square"></i></p>
+        <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <p id="copyright">Copyright 2003-<script>document.write(new Date().getFullYear())</script> Randy Bick Photography</p>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p id="contact">Contact Us: <i class="fas fa-envelope"></i> <i class="fab fa-wpforms"></i> <i class="fab fa-facebook-square"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p id="copyright">Copyright 2003-<script>document.write(new Date().getFullYear())</script> Randy Bick Photography</p>
+                </div>
             </div>
         </div>
     </footer>
-
-    <!--<section class="container-fluid splash">-->
-        <!--&lt;!&ndash;border border-warning&ndash;&gt;-->
-        <!--<div class="row">-->
-            <!--<div class="col-3"><img src="assets/images/splash-sm/splash-1.png" /></div>-->
-            <!--<div class="col-3 text-center"><img src="assets/images/splash-sm/splash-2.png" /></div>-->
-            <!--<div class="col-3 text-center"><img src="assets/images/splash-sm/splash-3.png" /></div>-->
-            <!--<div class="col-3 text-right"><img src="assets/images/splash-sm/splash-4.png" /></div>-->
-        <!--</div>-->
-
-        <!--&lt;!&ndash; 'rowspan' effect &ndash;&gt;-->
-        <!--<div class="row">-->
-            <!--<div class="col-3 text-left">-->
-                <!--<div class="row">-->
-                    <!--<div class="col-12"><img src="assets/images/splash-sm/splash-5.png" /></div>-->
-                <!--</div>-->
-                <!--<div class="row">-->
-                    <!--<div class="col-12"><img src="assets/images/splash-sm/splash-7.png" /></div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-6 text-center my-auto">-->
-                <!--<p class="splash-text">"There is something exciting about capturing a perfect moment and preserving it forever, secure in the knowledge that the emotional impact will never fade away."</p>-->
-            <!--</div>-->
-            <!--<div class="col-3 text-right">-->
-                <!--<div class="row h-50">-->
-                    <!--<div class="col-12 my-auto align-self-center"><img src="assets/images/splash-sm/splash-6.png" /></div>-->
-                <!--</div>-->
-                <!--<div class="row h-50">-->
-                    <!--<div class="col-12 align-self-center"><img src="assets/images/splash-sm/splash-9.png"/></div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--<div class="row">-->
-            <!--<div class="col-3"><img src="assets/images/splash-sm/splash-9.png" /></div>-->
-            <!--<div class="col-3 text-center"><img src="assets/images/splash-sm/splash-10.png" /></div>-->
-            <!--<div class="col-3 text-center"><img src="assets/images/splash-sm/splash-11.png" /></div>-->
-            <!--<div class="col-3 text-right"><img src="assets/images/splash-sm/splash-12.png" /></div>-->
-        <!--</div>-->
-
-
-    <!--</section>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -137,3 +108,4 @@
 </body>
 
 </html>
+
