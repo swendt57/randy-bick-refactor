@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang:300,400,500,600,600i,700,700i|Sansita:700,700i|Roboto:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Taviraj:500,500i,700,700i,800,800i|Sansita:700,700i|Roboto:300,400,500,600,700&display=swap');
 
 /* BS OR = Bootstrap Override */
 
@@ -6,10 +6,29 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
     margin: 5px;
-    background-color: #212529;
+    background-color: #151515;
     color: #e6e6e6;
     padding-top: 80px;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.25rem;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+section {
+    margin-top: 20px;
 }
 
 /*row, col-12 {*/
@@ -28,21 +47,27 @@ body {
 
 .company-name,
 .company-name-lg {
-    font-family: "Fahkwang", sans-serif;
-    font-weight: 600;
+    font-family: "Taviraj", sans-serif;
+    font-weight: 700;
     font-size: 17px;
     font-style: italic;
     color: #a7a7a7;
+    letter-spacing: 1px;
 }
 
 .company-name {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 17px;
 }
 
 .company-name-lg {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+a.nav-link {
+    font-family: "Taviraj", sans-serif;
+    margin-right: 10px;
 }
 
 /*BS OR*/
@@ -57,8 +82,8 @@ body {
 
 /*BS OR*/
 .navbar {
-    background: #212529;
-    padding: 4px 8px;
+    background: rgba(21,21,21,0.85);
+    padding: 6px 8px;
     z-index: 2;
 }
 
@@ -66,11 +91,42 @@ nav a {
     color: #e6e6e6;
 }
 
-/*---------------Splash Styles---------------*/
+/*---------------Home Page---------------*/
+#skyline {
+    width: 90%;
+    align-content: center;
+    border: 3px solid #ea8f20;
+    padding: 0;
+}
+
+#couple {
+    width: 70%;
+    align-content: center;
+    padding: 0;
+}
+
+#splash-text {
+    font-family: "Taviraj", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    padding: 20px;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+
+}
 
 div > img {
     padding: 5px;
 }
+
+
 
 /* TODO research using sass so I can include to other styles*/
 .splash-text {
