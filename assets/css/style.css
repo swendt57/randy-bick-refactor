@@ -99,7 +99,7 @@ nav a {
 #skyline {
     width: 90%;
     align-content: center;
-    border: 3px solid #ea8f20;
+    border: 1px solid #ea8f20;
     padding: 0;
 }
 
@@ -116,14 +116,36 @@ nav a {
     padding: 20px;
 }
 
+#beach {
+    width: 80%;
+    align-content: center;
+    padding: 0;
+}
+
+#girl {
+    width: 60%;
+    align-content: center;
+    padding: 0;
+}
+
+#fountain {
+    width: 90%;
+    align-content: center;
+    padding: 0;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
-
+    #splash-text {
+        font-size: 1.1rem;
+    }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
-
+    #splash-text {
+        font-size: 1.2rem
+    }
 }
 
 div > img {
