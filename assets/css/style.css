@@ -20,14 +20,14 @@ body {
 /* styles for tablet */
 @media (min-width: 768px) {
     body {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
     body {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -45,28 +45,77 @@ section {
 /*---------------Header Styles---------------*/
 
 .company-name,
-.company-name-lg {
+.company-name-lg,
+.nav-text,
+.nav-text-lg{
     font-family: "Taviraj", sans-serif;
     font-weight: 700;
-    font-size: 17px;
     font-style: italic;
     color: #a7a7a7;
-    letter-spacing: .05rem;
 }
 
 .company-name {
-    font-weight: 700;
     font-size: 17px;
+    letter-spacing: .05rem;
+}
+.company-name-lg {
+    font-size: 21px;
+    letter-spacing: .05rem;
 }
 
-.company-name-lg {
-    font-weight: 700;
-    font-size: 21px;
+.nav-text {
+    font-size: 13px;
+}
+.nav-text-lg {
+    font-size: 15px;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    .company-name {
+        font-size: 19px;
+    }
+    .company-name-lg {
+        font-size: 23px;
+    }
+
+    .nav-text {
+        font-size: 15px;
+    }
+    .nav-text-lg {
+        font-size: 17px;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    .company-name {
+        font-size: 21px;
+    }
+    .company-name-lg {
+        font-size: 25px;
+    }
+
+    .nav-text {
+        font-size: 16px;
+    }
+    .nav-text-lg {
+        font-size: 18px;
+    }
 }
 
 a.nav-link {
     font-family: "Taviraj", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 17px;
+    color: #a7a7a7;
     margin-right: 10px;
+    vertical-align: center;
+}
+
+a.nav-link:hover {
+    background: rgba(167,167,167,0.2);
 }
 
 /*BS OR*/
@@ -78,10 +127,6 @@ a.nav-link {
 .navbar-toggler {
     padding: 4px;
 }
-
-/*.custom-toggler .navbar-toggler-icon {*/
-    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32'  xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
-/*}*/
 
 /*BS OR*/
 .navbar {
@@ -113,7 +158,7 @@ nav a {
     font-family: "Taviraj", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: 20px;
+    padding: 30px 20px 20px;
 }
 
 #beach {
@@ -134,19 +179,21 @@ nav a {
     padding: 0;
 }
 
-/* styles for tablet */
-@media (min-width: 768px) {
-    #splash-text {
-        font-size: 1.1rem;
-    }
-}
 
-/* styles for desktop */
-@media (min-width: 992px) {
-    #splash-text {
-        font-size: 1.2rem
-    }
-}
+
+/*!* styles for tablet *!*/
+/*@media (min-width: 768px) {*/
+    /*#splash-text {*/
+        /*font-size: 1.1rem;*/
+    /*}*/
+/*}*/
+
+/*!* styles for desktop *!*/
+/*@media (min-width: 992px) {*/
+    /*#splash-text {*/
+        /*font-size: 1.2rem*/
+    /*}*/
+/*}*/
 
 div > img {
     padding: 5px;
