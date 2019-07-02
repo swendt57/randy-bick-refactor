@@ -11,6 +11,8 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <!-- TODO merge this-->
+    <link rel="stylesheet" href="assets/css/overlay_effect.css" type="text/css">
 
     <script src="assets/scripts/include_script.js"></script> <!-- temporary include function that mimics SSI -->
 
@@ -23,11 +25,63 @@
     </header>
 
     <section>
-        Corporate
+        <div id="corp-container" class="container">
+            <h3>Corporate</h3>
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center">
+                    <a href="http://www.joomag.com/magazine/928-squire-oaks-dr-villa-hills-volume-1/0868621001375378595?page=3" target="_blank">
+                        <img src="assets/images/icons/huff_realty_icon.jpg" alt="External link to Huff Realty">
+                    </a>
+                    <p>(external link)</p>
+                </div>
+
+                <div class="d-none d-lg-block col-lg-6 text-centergit push">
+                    <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
+                        <img src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">
+                    </a>
+                    <p>(external link)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="d-lg-none d-xl-none col-12 text-center">
+                    <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
+                        <img src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">
+                    </a>
+                    <p>(external link)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-none d-lg-block text-center">
+                    <a href="allstate.html">
+                        <img src="assets/images/icons/allstate_insurance_icon.jpg" alt="Link to Allstate executive images">
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <footer>
-        <div w3-include-html="footer.html"></div> <!-- temporary JS SSI -->
+        <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div id="contact-div" class="col-12 text-center">
+                    <p id="contact">Contact Us: <a href="mailto:rbick@randybick.com"><i class="fas fa-envelope"></i></a> <a href="contact_us.html"><i class="fab fa-wpforms"></i></a> <a href="https://www.facebook.com/randy.bick.7" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p id="copyright">Copyright 2003-<script>document.write(new Date().getFullYear())</script> Randy Bick Photography</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

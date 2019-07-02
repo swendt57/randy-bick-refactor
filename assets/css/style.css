@@ -3,8 +3,9 @@
 /* BS OR = Bootstrap Override */
 
 /* TODOs */
-/*change cursor to hand on hover*/
-/*change icon color on hover - not as easy as it sounds*/
+/* TODO change cursor to hand on hover */
+/* TODO change icon color on hover - not as easy as it sounds */
+/* TODO research using sass so I can include to other styles */
 
 /*---------------General Styles---------------*/
 
@@ -13,27 +14,44 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #151515;
-    color: #e6e6e6;
+    color: #cccccc;
     padding: 80px 0 0 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.row {
+    margin: 0;
+}
+
+h3 {
+    padding: 15px 0;
+    color: #fff7e2;
 }
 
 /* styles for tablet */
 @media (min-width: 768px) {
     body {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
+    }
+    h3 {
+        padding: 20px 0;
     }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    h3 {
+        padding: 25px 0;
     }
 }
 
-section {
-    margin-top: 20px;
-}
+
 
 
 /*---------------Colors---------------*/
@@ -134,6 +152,7 @@ a.nav-link:hover {
     background: black;
     padding: 6px 10px;
     z-index: 2;
+    /*max-width: 1500px;*/ /*limits the width but left justifies the nav*/
 }
 
 nav a {
@@ -199,9 +218,58 @@ div > img {
     padding: 5px;
 }
 
+/*---------------About Page---------------*/
 
+#randy {
+    border: 1px solid white;
+    margin: 10px;
+}
 
-/* TODO research using sass so I can include to other styles*/
+section .container {
+
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    section .container {
+        max-width: 80%;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    section .container {
+        max-width: 65%;
+    }
+}
+
+@media (min-width: 1200px) {
+    section .container {
+        max-width: 1100px;
+    }
+}
+
+/*---------------Corporate Page---------------*/
+
+#huff {
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*width: 300px;*/
+    /*height: 225px;*/
+}
+
+figure {
+    /*align-content: center;*/
+}
+
+#corp-container {
+    max-width: 900px;
+}
+
+/*#anything {*/
+    /*!*align-content: center;*!*/
+    /*padding-left: 50px;*/
+/*}*/
 
 
 /*---------------Footer---------------*/
@@ -209,6 +277,7 @@ div > img {
 #copyright {
     font-size: .75rem;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 #contact {
@@ -223,19 +292,33 @@ div > img {
 footer hr {
     background: #e6e6e6;
     width: 65%;
-    height: 2px;
+    height: 1px;
+    margin-top: 30px;
+    max-width: 400px;
 }
 
 /* styles for tablet */
 @media (min-width: 768px) {
     #copyright {
-        font-size: 1rem;
+        font-size: .85rem;
+    }
+    #contact i {
+        font-size: 20px;
     }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
     #copyright {
-        font-size: 1.25rem;
+        font-size: .95rem;
+    }
+    #contact i {
+        font-size: 30px;
     }
 }
+
+/*@media (min-width: 1200px) {*/
+    /*.container{*/
+        /*max-width: 970px;*/
+    /*}*/
+/*}*/

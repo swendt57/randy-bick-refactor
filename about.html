@@ -23,11 +23,43 @@
     </header>
 
     <section>
-        About Randy
+        <div class="container">
+            <h3>About Randy</h3>
+
+            <p><img id="randy" src="assets/images/randy_headshot.jpg" alt="Headshot of Randy Bick" align="right">Clients
+                choose Randy specifically for his experience, relaxed composure, and attention to detail. He believes in creating
+                a relationship with each of his clients, which result in photography that is quick, easy, and fun.</p>
+
+            <p>Professional Photographers of America have recognized Randy's achievements by awarding him both Master of
+                Photography and Photographic Craftsman degrees. His distinctive style has been described as a blend of classic
+                portraiture and editorial photography.</p>
+
+            <p>Randy has been awarded "Best Wedding Album," five consecutive years by the Kentucky Professional Photographers
+                Association. In additional his images have received the prestigious Kodak Gallery and Fuji Masterpiece awards
+                for photographic excellence.</p>
+        </div>
+        <br>
     </section>
 
     <footer>
-        <div w3-include-html="footer.html"></div> <!-- temporary JS SSI -->
+        <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div id="contact-div" class="col-12 text-center">
+                    <p id="contact">Contact Us: <a href="mailto:rbick@randybick.com"><i class="fas fa-envelope"></i></a> <a href="contact_us.html"><i class="fab fa-wpforms"></i></a> <a href="https://www.facebook.com/randy.bick.7" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p id="copyright">Copyright 2003-<script>document.write(new Date().getFullYear())</script> Randy Bick Photography</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
