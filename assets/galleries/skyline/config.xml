@@ -20,6 +20,7 @@
 	thumbCornerRadius="5"
 	thumbFrameColor="rgba(255,255,0,.2)"
 	thumbHoverFrameWidth="10"
+	maxThumRows="1"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >
