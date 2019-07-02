@@ -12,7 +12,7 @@
 	imageFrameColor="rgba(167,167,167,1)"
 	imagePadding="10"
 	backButtonPosition="overlay"
-	backButtonUrl="http://www.randybick.com/families.html"
+	backButtonUrl="../../../families.html"
 	backButtonText="Return to Families"
 	backButtonUseIcon="true"
 	thumbWidth="170"

@@ -9,8 +9,16 @@
 
 /*---------------General Styles---------------*/
 
-body {
+html, body {
     margin: 0;
+
+    height: 100%;
+    width: 100%;
+    display: table; /* used to position footer at bottom of short pages */
+}
+
+body {
+
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #151515;
@@ -271,6 +279,21 @@ figure {
     /*padding-left: 50px;*/
 /*}*/
 
+/*---------------Portraits Page---------------*/
+
+#lainie, #paige {
+    border: 2px solid white;
+    margin: 10px;
+}
+
+
+/*---------------Families Page---------------*/
+
+#klesa, #due {
+    border: 2px solid white;
+    margin: 10px;
+}
+
 
 /*---------------Footer---------------*/
 
@@ -297,6 +320,11 @@ footer hr {
     max-width: 400px;
 }
 
+footer {
+    display: table-row; /* used to position footer at bottom of short pages */
+    height: 0;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
     #copyright {
@@ -316,9 +344,3 @@ footer hr {
         font-size: 30px;
     }
 }
-
-/*@media (min-width: 1200px) {*/
-    /*.container{*/
-        /*max-width: 970px;*/
-    /*}*/
-/*}*/
