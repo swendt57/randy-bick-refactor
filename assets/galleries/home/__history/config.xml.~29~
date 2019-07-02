@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	buttonBarPosition="overlay_image"
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="5"
+	enableLooping="true"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	showAutoPlayButton="true"
+	captionPosition="none"
+	indexPageName="index.html"
+	showSmallThumbs="false"
+	showLargeThumbs="false"
+	showSmallThumbsButton="false"
+	showThumbsButton="false"
+	showThumbsOnLoad="false"
+	showSmallThumbsOnLoad="false"
+	backgroundColor="#000000"
+
+>
+  <image imageURL="gallery/home/images/000.jpg"
+	thumbURL="gallery/home/thumbs/000.jpg"
+	linkURL="gallery/home/images/000.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/000.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/001.jpg"
+	thumbURL="gallery/home/thumbs/001.jpg"
+	linkURL="gallery/home/images/001.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/001.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/002.jpg"
+	thumbURL="gallery/home/thumbs/002.jpg"
+	linkURL="gallery/home/images/002.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/002.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/003.jpg"
+	thumbURL="gallery/home/thumbs/003.jpg"
+	linkURL="gallery/home/images/003.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/003.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/004.jpg"
+	thumbURL="gallery/home/thumbs/004.jpg"
+	linkURL="gallery/home/images/004.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/004.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/005.jpg"
+	thumbURL="gallery/home/thumbs/005.jpg"
+	linkURL="gallery/home/images/005.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/005.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/006.jpg"
+	thumbURL="gallery/home/thumbs/006.jpg"
+	linkURL="gallery/home/images/006.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/006.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/007.jpg"
+	thumbURL="gallery/home/thumbs/007.jpg"
+	linkURL="gallery/home/images/007.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/007.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/008.jpg"
+	thumbURL="gallery/home/thumbs/008.jpg"
+	linkURL="gallery/home/images/008.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/008.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/009.jpg"
+	thumbURL="gallery/home/thumbs/009.jpg"
+	linkURL="gallery/home/images/009.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/009.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/010.jpg"
+	thumbURL="gallery/home/thumbs/010.jpg"
+	linkURL="gallery/home/images/010.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/010.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/011.jpg"
+	thumbURL="gallery/home/thumbs/011.jpg"
+	linkURL="gallery/home/images/011.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/011.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/012.jpg"
+	thumbURL="gallery/home/thumbs/012.jpg"
+	linkURL="gallery/home/images/012.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/012.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/013.jpg"
+	thumbURL="gallery/home/thumbs/013.jpg"
+	linkURL="gallery/home/images/013.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images/013.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/014.jpg"
+	thumbURL="gallery/home/thumbs/014.jpg"
+	linkURL="gallery/home/images/014.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\014.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/015.jpg"
+	thumbURL="gallery/home/thumbs/015.jpg"
+	linkURL="gallery/home/images/015.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\015.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/016.jpg"
+	thumbURL="gallery/home/thumbs/016.jpg"
+	linkURL="gallery/home/images/016.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\016.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/017.jpg"
+	thumbURL="gallery/home/thumbs/017.jpg"
+	linkURL="gallery/home/images/017.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\017.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/018.jpg"
+	thumbURL="gallery/home/thumbs/018.jpg"
+	linkURL="gallery/home/images/018.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\018.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/019.jpg"
+	thumbURL="gallery/home/thumbs/019.jpg"
+	linkURL="gallery/home/images/019.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\019.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/020.jpg"
+	thumbURL="gallery/home/thumbs/020.jpg"
+	linkURL="gallery/home/images/020.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\020.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/021.jpg"
+	thumbURL="gallery/home/thumbs/021.jpg"
+	linkURL="gallery/home/images/021.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\021.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/022.jpg"
+	thumbURL="gallery/home/thumbs/022.jpg"
+	linkURL="gallery/home/images/022.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\022.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/023.jpg"
+	thumbURL="gallery/home/thumbs/023.jpg"
+	linkURL="gallery/home/images/023.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\023.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/024.jpg"
+	thumbURL="gallery/home/thumbs/024.jpg"
+	linkURL="gallery/home/images/024.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\024.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/025.jpg"
+	thumbURL="gallery/home/thumbs/025.jpg"
+	linkURL="gallery/home/images/025.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\025.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/026.jpg"
+	thumbURL="gallery/home/thumbs/026.jpg"
+	linkURL="gallery/home/images/026.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\026.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/027.jpg"
+	thumbURL="gallery/home/thumbs/027.jpg"
+	linkURL="gallery/home/images/027.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\027.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/028.jpg"
+	thumbURL="gallery/home/thumbs/028.jpg"
+	linkURL="gallery/home/images/028.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\028.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/029.jpg"
+	thumbURL="gallery/home/thumbs/029.jpg"
+	linkURL="gallery/home/images/029.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\029.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/030.jpg"
+	thumbURL="gallery/home/thumbs/030.jpg"
+	linkURL="gallery/home/images/030.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\030.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/031.jpg"
+	thumbURL="gallery/home/thumbs/031.jpg"
+	linkURL="gallery/home/images/031.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\031.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="gallery/home/images/032.jpg"
+	thumbURL="gallery/home/thumbs/032.jpg"
+	linkURL="gallery/home/images/032.jpg"
+	linkTarget="_blank"
+	sourcePath="gallery/home/images\032.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

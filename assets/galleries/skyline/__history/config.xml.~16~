@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Randy Bick"
+	galleryTitleHAlign="right"
+	buttonBarPosition="overlay_image"
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="3"
+	enableLooping="true"
+	frameWidth="0"
+	imageFrameColor="rgba(167,167,167,1)"
+	imagePadding="10"
+	backButtonPosition="overlay"
+	backButtonUrl="http://www.randybick.com/families.html"
+	backButtonText="Return to Families"
+	backButtonUseIcon="true"
+	thumbWidth="170"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	showAutoPlayButton="true"
+	captionPosition="none"
+>
+<!-- backButtonUseIcon="true" -->
+  <image imageURL="images/Fine Art-001.jpg"
+	thumbURL="thumbs/Fine Art-001.jpg"
+	linkURL="images/Fine Art-001.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-002.jpg"
+	thumbURL="thumbs/Fine Art-002.jpg"
+	linkURL="images/Fine Art-002.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-003.jpg"
+	thumbURL="thumbs/Fine Art-003.jpg"
+	linkURL="images/Fine Art-003.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-004.jpg"
+	thumbURL="thumbs/Fine Art-004.jpg"
+	linkURL="images/Fine Art-004.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-005.jpg"
+	thumbURL="thumbs/Fine Art-005.jpg"
+	linkURL="images/Fine Art-005.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-006.jpg"
+	thumbURL="thumbs/Fine Art-006.jpg"
+	linkURL="images/Fine Art-006.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-007.jpg"
+	thumbURL="thumbs/Fine Art-007.jpg"
+	linkURL="images/Fine Art-007.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-008.jpg"
+	thumbURL="thumbs/Fine Art-008.jpg"
+	linkURL="images/Fine Art-008.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-009.jpg"
+	thumbURL="thumbs/Fine Art-009.jpg"
+	linkURL="images/Fine Art-009.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-010.jpg"
+	thumbURL="thumbs/Fine Art-010.jpg"
+	linkURL="images/Fine Art-010.jpg"
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/Fine Art-011.jpg"
+	thumbURL="thumbs/Fine Art-011.jpg"
+	linkURL="images/Fine Art-011.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  
+</juiceboxgallery>

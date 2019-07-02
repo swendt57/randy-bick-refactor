@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Randy Bick Photography</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="keywords" content="wedding, photography, wedding photographer, photographer, bar, bat, mitzvah, portraits, northern, kentucky, cincinnati, san diego, southern california, award, award winning, ohio, photojournalism, contemporary, destination">
+		<meta name="description" content="Randy Bick is a master photographer, specializing in contemporary and photojournalistic weddings, bar and bat mitzvahs, and on-location family portraiture.">
+		<meta name="author" content="Randy Bick and Steve Wendt">
+		<meta name="copyright" content="&copy; 2003-2013 Randy Bick Photography, Inc.">
+		
+		<link rel="icon" type="image/png" href="http://www.randybick.com/images/favicon.ico" />
+		
+		<style type="text/css">
+			body {
+				margin: 0px;
+			}
+		</style>
+		
+		<script src="../z_ssi/rollover.js" type="text/javascript"></script>	
+		<link rel="STYLESHEET" type="text/css" href="../z_ssi/bick.css">
+		
+	</head>
+	<body>
+	
+		<!--START JUICEBOX EMBED-->
+		<script src="jbcore/juicebox.js"></script>
+		<script>
+			new juicebox({
+				containerId : 'juicebox-container'
+			});
+
+		</script>
+		<div id="juicebox-container"></div>
+		<!--END JUICEBOX EMBED-->
+	</body>
+</html>
