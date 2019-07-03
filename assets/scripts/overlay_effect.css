@@ -1,6 +1,7 @@
 .icon-container {
     position: relative;
-    width: 50%;
+    width: 340px;
+    /*width: 50%;*/
 }
 
 .image {

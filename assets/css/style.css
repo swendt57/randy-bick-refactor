@@ -35,8 +35,25 @@ section {
 }
 
 h3 {
-    padding: 15px 0;
+    /*padding: 15px 0;*/
     color: #fff7e2;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    color: #a7a7a7;
+}
+
+figcaption:hover {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* styles for tablet */
@@ -239,24 +256,24 @@ div > img {
 }
 
 /* styles for tablet */
-@media (min-width: 768px) {
-    section .container {
-        max-width: 80%;
-    }
-}
+/*@media (min-width: 768px) {*/
+    /*section .container {*/
+        /*max-width: 80%;*/
+    /*}*/
+/*}*/
 
-/* styles for desktop */
-@media (min-width: 992px) {
-    section .container {
-        max-width: 65%;
-    }
-}
+/*!* styles for desktop *!*/
+/*@media (min-width: 992px) {*/
+    /*section .container {*/
+        /*max-width: 65%;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 1200px) {
-    section .container {
-        max-width: 1000px;
-    }
-}
+/*@media (min-width: 1200px) {*/
+    /*section .container {*/
+        /*max-width: 1000px;*/
+    /*}*/
+/*}*/
 
 /*---------------Corporate Page---------------*/
 
@@ -282,51 +299,83 @@ figure {
 
 /*---------------Portraits Page---------------*/
 
-#lainie, #paige {
+#lainie, .paige, #lainie-portrait {
     border: 2px solid white;
-    margin: 10px;
+}
+
+#lainie:hover, .paige:hover {
+    border: 2px solid gold;
 }
 
 #lainie-div {
+    max-width: 1000px;
     text-align: center;
 }
 
+#lainie-portrait {
+    max-width: 90%;
+    margin-top: 5%;
+}
+
 @media (min-width: 992px) {
-    #lainie-div {
-        text-align: right;
-    }
+    /*#lainie-div {*/
+        /*text-align: right;*/
+    /*}*/
 }
 
 
 /*---------------Families Page---------------*/
 
-#klesa, #due {
+#klesa, .due {
     border: 2px solid white;
 }
 
+#klesa:hover, .due:hover {
+    border: 2px solid gold;
+}
+
 #klesa-div {
+    max-width: 1000px;
     text-align: center;
 }
 
 @media (min-width: 992px) {
-    #klesa-div {
-        text-align: right;
+    /*#klesa-div {*/
+        /*text-align: right;*/
+    /*}*/
+}
+
+/*.mytest {*/
+    /*!*margin: auto;*!*/
+    /*width: 300px;*/
+/*}*/
+
+
+
+.table-sm {
+    /*padding: 0;*/
+    margin: auto;
+    /*width: 50% !important;*/
+    width: 340px;
+}
+
+@media (min-width: 992px) {
+    .table-sm {
+        margin: auto;
+        width: 660px;
     }
 }
 
-.table-sm {
-    padding: 0;
-    margin: auto;
-    /*width: 50% !important;*/
-}
-
 .table-sm td {
-    padding: 0;
+    /*padding: 0;*/
+    /*padding-right: 20px;*/
+    /*padding-left: 20px;*/
+    /*width: 300px;*/
 }
 
-.spacer {
-    width: 50px;
-}
+/*.spacer {*/
+    /*width: 50px;*/
+/*}*/
 
 
 /*---------------Footer---------------*/

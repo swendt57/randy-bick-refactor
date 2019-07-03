@@ -24,15 +24,16 @@
         <div w3-include-html="header.html"></div> <!-- temporary JS SSI -->
     </header>
 
-    <section>
-        <div class="container">
+    <section style="width: 375px;">
+        <!--<div class="container">-->
             <h3>Families</h3>
 
-
-            <table class="table-sm" border="2">
-                <tbody>
-                <tr>
-                    <td>
+            <!--<div class="container">-->
+            <div class="table-sm">
+                <!--<tbody>-->
+                <div class="container">
+                <div class="row" style="margin:20px 0;">
+                    <div class="cell col-12 col-lg-6" style="width:320px">
                         <div class="icon-container">
                             <a href="assets/galleries/klesa_portrait">
                                 <img id="klesa" class="image" src="assets/images/icons/klesa_portrait_icon.jpg" alt="Link to Klesa Family portrait album">
@@ -41,9 +42,9 @@
                                 <div class="text">HEY!</div>
                             </div>
                         </div>
-                    </td>
+                    </div>
                     <!--<td class="spacer d-none d-lg-block">&lt;!&ndash; spacer &ndash;&gt;test</td>-->
-                    <td class="d-none d-lg-block">
+                    <div class="cell d-none d-lg-block col-6" style="width:320px;">
                         <div class="icon-container">
                             <a href="assets/galleries/due_portrait">
                                 <img class="due image" src="assets/images/icons/due_portrait_icon.jpg" alt="Link to Due Family portrait album">
@@ -52,11 +53,11 @@
                                 <div class="text">THERE!</div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr height="30" class="d-lg-none"><td><!-- spacer --></td></tr>
-                <tr class="d-lg-none">
-                    <td>
+                    </div>
+                </div>
+                <!--<tr height="30" class="d-lg-none"><td>&lt;!&ndash; spacer &ndash;&gt;</td></tr>-->
+                <div class="row d-lg-none" style="margin:20px 0;">
+                    <div class="cell col-12">
                         <div class="icon-container">
                             <a href="assets/galleries/due_portrait">
                                 <img class="due image" src="assets/images/icons/due_portrait_icon.jpg" alt="Link to Due Family portrait album">
@@ -65,12 +66,14 @@
                                 <div class="text">THERE!</div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                    </div>
+                </div>
+                </div>
+                <!--</tbody>-->
+            </div>
+            <!--</div>-->
 
-        </div>
+        <!--</div>-->
     </section>
 
     <footer>
