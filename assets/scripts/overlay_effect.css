@@ -1,0 +1,46 @@
+.icon-container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 225px;
+    /*height: auto;*/
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    width: 305px;
+    height: 0;
+    transition: .3s ease-in-out;
+}
+
+.icon-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: #f3b204;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text h3 {
+    color: #f3b204;
+    top: 75%;
+    padding-bottom: 50%;
+}

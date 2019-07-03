@@ -23,11 +23,11 @@ body {
     font-size: 16px;
     background-color: #151515;
     color: #cccccc;
-    padding: 80px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 section {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .row {
@@ -69,6 +69,10 @@ h3 {
 }
 
 /*---------------Header Styles---------------*/
+
+/*header {*/
+    /*border-bottom: 1px solid red;*/
+/*}*/
 
 .company-name,
 .company-name-lg,
@@ -160,6 +164,7 @@ a.nav-link:hover {
     background: black;
     padding: 6px 10px;
     z-index: 2;
+    border-bottom: 1px solid rgba(167,167,167,0.5);
     /*max-width: 1500px;*/ /*limits the width but left justifies the nav*/
 }
 
@@ -233,10 +238,6 @@ div > img {
     margin: 10px;
 }
 
-section .container {
-
-}
-
 /* styles for tablet */
 @media (min-width: 768px) {
     section .container {
@@ -253,7 +254,7 @@ section .container {
 
 @media (min-width: 1200px) {
     section .container {
-        max-width: 1100px;
+        max-width: 1000px;
     }
 }
 
@@ -286,12 +287,45 @@ figure {
     margin: 10px;
 }
 
+#lainie-div {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #lainie-div {
+        text-align: right;
+    }
+}
+
 
 /*---------------Families Page---------------*/
 
 #klesa, #due {
     border: 2px solid white;
-    margin: 10px;
+}
+
+#klesa-div {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #klesa-div {
+        text-align: right;
+    }
+}
+
+.table-sm {
+    padding: 0;
+    margin: auto;
+    /*width: 50% !important;*/
+}
+
+.table-sm td {
+    padding: 0;
+}
+
+.spacer {
+    width: 50px;
 }
 
 

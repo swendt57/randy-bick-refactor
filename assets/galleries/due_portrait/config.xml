@@ -18,6 +18,8 @@
 	thumbWidth="170"
 	thumbHeight="85"
 	thumbCornerRadius="5"
+	thumbFrameColor="rgba(255,255,255,.5)"
+	thumbHoverFrameWidth="5"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >
