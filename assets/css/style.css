@@ -91,6 +91,16 @@ a:hover {
     /*border-bottom: 1px solid red;*/
 /*}*/
 
+#header-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 91px;
+    background: black;
+    border-bottom: 1px solid rgba(167,167,167,0.5);;
+}
+
 .company-name,
 .company-name-lg,
 .nav-text,
@@ -181,7 +191,9 @@ a.nav-link:hover {
     background: black;
     padding: 6px 10px;
     z-index: 2;
-    border-bottom: 1px solid rgba(167,167,167,0.5);
+    /*border-bottom: 1px solid rgba(167,167,167,0.5);*/
+    max-width: 1300px;
+    margin: 0 auto;
     /*max-width: 1500px;*/ /*limits the width but left justifies the nav*/
 }
 
