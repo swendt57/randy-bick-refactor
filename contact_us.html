@@ -23,7 +23,53 @@
     </header>
 
     <section>
-        Contact Us
+        <div class="container">
+
+            <h3 class="pageHead">Contact Us</h3>
+
+            <div style="text-align:center">
+
+                <p><strong>Thank you for your interest in Randy Bick Photograhy</strong></p>
+
+                <p>Do you have questions or would like to place an order?  If so, please complete and submit the following information so we can contact you:</p>
+
+                <form action="http://www.randybick.com/cgi-bin/cgiemail/email_template.txt" method="post" name="photography_inquiry" id="photography_inquiry" onsubmit="return validateForm()">
+                    <input type="hidden" name="success" value="http://www.randybick.com/thankyou.html">
+
+                    <table width="600">
+                        <tr>
+                            <td align="right" width="50%">Name:</td>
+                            <td><input type="text" name="required-name" class="formfields" required autofocus autocomlete></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Phone Number:</td>
+                            <td><input type="tel" name="required-phone" class="formfields" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Phone Type:</td>
+                            <td><input type="radio" name="phoneType" value="home"> Home
+                                <input type="radio" name="phoneType" value="cell"> Cell</td>
+                        </tr>
+                        <tr>
+                            <td align="right">Email Address:</td>
+                            <td><input type="email" name="required-email" class="formfields" required autocomplete placeholder="Enter valid email address"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">My inquiry or order is as follows:</td>
+                            <td><textarea name="required-comments" class="commentbox" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td align="right"><input type="submit" class="buttons" value="Submit">&nbsp;</td>
+                        </tr>
+                    </table>
+                </form>
+
+                <br><br>
+
+            </div>
+
+        </div>
     </section>
 
     <footer>
