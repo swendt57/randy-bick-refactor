@@ -11,8 +11,9 @@ All images &copy; 2003-2019 by Randy Bick
 * https://stackoverflow.com
 * https://www.w3schools.com
 
-* The mysterious Raaf003 on Stack Overflow for his JavaScript based Include function
+* Raaf003 on Stack Overflow for his JavaScript based Include function
 * Jose Rui Santos on Stack Overflow for a reasonable "footer at the bottom of the screen" solution
+* Michael B on Stack Overflow for his Grid Layout solution
 
 ### Purchased Modules
 * Juicebox Pro - http://www.juicebox.net

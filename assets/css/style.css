@@ -128,6 +128,10 @@ a:hover {
     font-size: 15px;
 }
 
+.nav-item {
+    background: black;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
     .company-name {
@@ -248,7 +252,7 @@ nav a {
 }
 
 #fountain-alt {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
@@ -315,11 +319,12 @@ div > img {
 
 /*---------------Corporate Page---------------*/
 
-#huff {
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*width: 300px;*/
-    /*height: 225px;*/
+#huff, .nku, #allstate {
+    border: 2px solid white;
+}
+
+#huff:hover, .nku:hover, #allstate:hover {
+    border: 2px solid gold;
 }
 
 figure {
@@ -330,8 +335,8 @@ figure {
     max-width: 900px;
 }
 
-#allstate {
-    marging: 20px, auto;
+#allstate-execs {
+    margin: 20px auto;
 }
 
 /*#anything {*/
@@ -341,12 +346,12 @@ figure {
 
 /*---------------Portraits Page---------------*/
 
-#lainie, .paige, #lainie-portrait {
-    border: 2px solid white;
-}
+/*#lainie, .paige, #lainie-portrait {*/
+    /*border: 2px solid white;*/
+/*}*/
 
 #lainie:hover, .paige:hover {
-    border: 2px solid gold;
+    border: 5px solid gold;
 }
 
 #lainie-div {
