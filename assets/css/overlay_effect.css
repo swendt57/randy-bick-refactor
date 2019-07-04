@@ -1,0 +1,74 @@
+.icon-container {
+    position: relative;
+    width: 300px;
+    /*width: 50%;*/
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 225px;
+    /*height: auto;*/
+}
+
+/*.overlay {*/
+    /*position: absolute;*/
+    /*bottom: 100%;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*overflow: hidden;*/
+    /*width: 300px;*/
+    /*height: 0;*/
+    /*transition: .3s ease-in-out;*/
+/*}*/
+
+/*.icon-container:hover .overlay {*/
+    /*bottom: 0;*/
+    /*height: 100%;*/
+
+
+.overlay {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.65);
+    overflow: hidden;
+    width: 300px;
+    height: 0;
+    transition: .3s ease-in-out;
+}
+
+.icon-container:hover .overlay {
+    top: 0;
+    height: 100%;
+}
+
+.icon-container.one-row-text:hover .overlay { /* need to adjust for text under icon */
+    top: 0;
+    height: 225px;
+}
+
+.icon-container.two-row-text:hover .overlay { /* need to adjust for text under icon */
+    bottom: 45px;
+    height: 225px;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text h3 {
+    color: #f3b204;
+    top: 75%;
+    margin-bottom: 100px;
+}

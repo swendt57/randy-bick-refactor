@@ -22,6 +22,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #151515;
+    /*background-color: white;*/
     color: #cccccc;
     padding: 60px 0 0 0;
 }
@@ -211,7 +212,7 @@ nav a {
 #skyline {
     width: 90%;
     align-content: center;
-    border: 1px solid #ea8f20;
+    border: 2px solid #ea8f20;
     padding: 0;
 }
 
@@ -249,6 +250,7 @@ nav a {
     width: 90%;
     align-content: center;
     padding: 0;
+    border: 1px solid #ea8f20;
 }
 
 #fountain-alt {
@@ -278,8 +280,8 @@ div > img {
 /*---------------About Page---------------*/
 
 #randy {
-    border: 1px solid white;
-    margin: 10px;
+    border: 2px solid white;
+    margin: 10px 20px;
     width: 140px;
 }
 
@@ -346,12 +348,12 @@ figure {
 
 /*---------------Portraits Page---------------*/
 
-/*#lainie, .paige, #lainie-portrait {*/
-    /*border: 2px solid white;*/
-/*}*/
+#lainie, .paige, #lainie-portrait {
+    border: 2px solid white;
+}
 
 #lainie:hover, .paige:hover {
-    border: 5px solid gold;
+    border: 2px solid gold;
 }
 
 #lainie-div {
@@ -419,6 +421,7 @@ figure {
     /*padding-left: 20px;*/
     /*width: 300px;*/
 }
+
 
 /*.spacer {*/
     /*width: 50px;*/

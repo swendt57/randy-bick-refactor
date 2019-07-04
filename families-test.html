@@ -12,7 +12,7 @@
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 
-    <link rel="stylesheet" href="assets/scripts/overlay_effect.css">
+    <link rel="stylesheet" href="assets/css/overlay_effect.css">
 
     <script src="assets/scripts/include_script.js"></script> <!-- temporary include function that mimics SSI -->
 
@@ -29,33 +29,39 @@
             <h3>Families</h3>
 
 
-            <table class="table-sm" border="2">
+            <table class="table-sm">
                 <tbody>
-                <tr>
+                <tr align="center">
                     <td>
-                        <div class="icon-container">
+                        <div class="icon-container one-row-text">
                             <a href="assets/galleries/klesa_portrait">
-                                <img id="klesa" class="image" src="assets/images/icons/klesa_portrait_icon.jpg" alt="Link to Klesa Family portrait album">
+                                <figure>
+                                    <img id="klesa" class="image" src="assets/images/icons/klesa_portrait_icon.jpg" alt="Link to Klesa Family portrait album">
+                                    <figcaption>Click/tap to view Klesa Family album</figcaption>
+                                </figure>
+                                <div class="overlay">
+                                    <div class="text"><h3>Klesa Family</h3></div>
+                                    <div class="text">Children's Portraits</div>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <div class="text">HEY!</div>
-                            </div>
                         </div>
                     </td>
-                    <!--<td class="spacer d-none d-lg-block">&lt;!&ndash; spacer &ndash;&gt;test</td>-->
                     <td class="d-none d-lg-block">
-                        <div class="icon-container">
+                        <div class="icon-container one-row-text">
                             <a href="assets/galleries/due_portrait">
-                                <img class="due image" src="assets/images/icons/due_portrait_icon.jpg" alt="Link to Due Family portrait album">
+                                <figure>
+                                    <img class="due image" src="assets/images/icons/due_portrait_icon.jpg" alt="Link to Due Family portrait album">
+                                    <figcaption>Click/tap to view Due Family album</figcaption>
+                                </figure>
                             </a>
                             <div class="overlay">
-                                <div class="text">THERE!</div>
+                                <div class="text"><h3>Due Family</h3></div>
+                                <div class="text">Family Portrait</div>
                             </div>
                         </div>
                     </td>
                 </tr>
-                <tr height="30" class="d-lg-none"><td><!-- spacer --></td></tr>
-                <tr class="d-lg-none">
+                <tr class="d-lg-none" align="center">
                     <td>
                         <div class="icon-container">
                             <a href="assets/galleries/due_portrait">

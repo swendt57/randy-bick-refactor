@@ -12,9 +12,11 @@
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 
+    <link rel="stylesheet" href="assets/css/overlay_effect.css">
+
     <script src="assets/scripts/include_script.js"></script> <!-- temporary include function that mimics SSI -->
 
-    <title>Families</title>
+    <title>Portraits</title>
 </head>
 
 <body>
@@ -25,38 +27,64 @@
     <section>
         <div class="container">
             <h3>Portraits</h3>
-            <div class="row">
-                <div id="lainie-div" class="col-12 col-lg-6">
-                    <a href="lainie.html">
-                        <figure>
-                            <img id="lainie" src="assets/images/icons/lainie_portrait_icon.jpg" alt="Link to Lainie senior portrait">
-                            <figcaption >Click/tap to view Lainie's senior portrait</figcaption>
-                        </figure>
-                    </a>
-                </div>
 
-                <div class="d-none d-lg-block col-lg-6 text-left">
-                    <a href="assets/galleries/paige_portrait">
-                        <figure>
-                            <img class="paige" src="assets/images/icons/paige_portrait_icon.jpg" alt="Link to Paige's portrait album">
-                            <figcaption style="margin-left:20px;">Click/tap to view Paige's album</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="d-lg-none d-xl-none col-12 text-center">
-                    <a href="assets/galleries/paige_portrait">
-                        <figure>
-                            <img class="paige" src="assets/images/icons/paige_portrait_icon.jpg" alt="Link to Paige's portrait album">
-                            <figcaption>Click/tap to view Paige's album</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
+            <table class="table-sm">
+                <tbody>
+                <tr align="center">
+                    <td>
+                        <div class="icon-container one-row-text">
+                            <a href="lainie.html">
+                                <figure>
+                                    <img id="lainie" class="image" src="assets/images/icons/lainie_portrait_icon.jpg" alt="Link to Lainie senior portrait">
+                                    <figcaption>Click/tap to view Lainie's portrait</figcaption>
+                                </figure>
+                                <div class="overlay">
+                                    <div class="text"><h3>Lainie's</h3></div>
+                                    <div class="text">Senior Portrait</div>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                    <td class="d-none d-lg-block">
+                        <div class="icon-container one-row-text">
+                            <a href="assets/galleries/paige_portrait">
+                                <figure>
+                                    <img class="paige image" src="assets/images/icons/paige_portrait_icon.jpg" alt="Link to Paige's portrait album">
+                                    <figcaption >Click/tap to view Paige's album</figcaption>
+                                </figure>
+                            </a>
+                            <div class="overlay">
+                                <div class="text"><h3>Paige's</h3></div>
+                                <div class="text">Portrait Album</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="d-lg-none d-xl-none col-12" align="center">
+                    <td>
+                        <div class="icon-container one-row-text">
+                            <a href="assets/galleries/paige_portrait">
+                                <figure>
+                                    <img class="paige image" src="assets/images/icons/paige_portrait_icon.jpg" alt="Link to Paige's portrait album">
+                                    <figcaption>Click/tap to view Paige's album</figcaption>
+                                </figure>
+                            </a>
+                            <div class="overlay">
+                                <div class="text"><h3>Paige's</h3></div>
+                                <div class="text">Portrait Album</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+
         </div>
     </section>
+
 
     <footer>
         <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->
