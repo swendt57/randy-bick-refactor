@@ -33,7 +33,7 @@
     top: 225px;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0,0,0,0.7);
     overflow: hidden;
     width: 300px;
     height: 0;
@@ -68,7 +68,7 @@
 }
 
 .text h3 {
-    color: #f3b204;
+    color: #ea8f20;
     top: 75%;
     margin-bottom: 100px;
 }

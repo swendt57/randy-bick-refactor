@@ -11,12 +11,12 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
-    <!-- TODO merge this-->
+
     <link rel="stylesheet" href="assets/css/overlay_effect.css" type="text/css">
 
     <script src="assets/scripts/include_script.js"></script> <!-- temporary include function that mimics SSI -->
 
-    <title>Corporate</title>
+    <title>Corporate Photography</title>
 </head>
 
 <body>
@@ -25,55 +25,134 @@
     </header>
 
     <section>
-        <div id="corp-container" class="container">
-            <h3>Corporate</h3>
-            <div class="row">
-                <div class="col-12 col-lg-6 text-center">
-                    <a href="http://www.joomag.com/magazine/928-squire-oaks-dr-villa-hills-volume-1/0868621001375378595?page=3" target="_blank">
-                        <figure>
-                            <img id="huff" src="assets/images/icons/huff_realty_icon.jpg" alt="External link to Huff Realty">
-                            <figcaption>Click/tap to visit Huff Realty website</figcaption>
-                            <figcaption>(external link - Flash required)</figcaption>
-                        </figure>
-                    </a>
-                </div>
+        <div class="container">
+            <h3>Corporate Photography</h3>
 
-                <div class="d-none d-lg-block col-lg-6 text-center">
-                    <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
-                        <figure>
-                            <img class="nku" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">
-                            <figcaption>Click/tap to visit NKY CVB website</figcaption>
-                            <figcaption>(external link)</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
+            <table class="table-sm">
+                <tbody>
+                <tr align="center">
+                    <td>
+                        <div class="icon-container two-row-text">
+                            <a href="http://www.joomag.com/magazine/928-squire-oaks-dr-villa-hills-volume-1/0868621001375378595?page=3" target="_blank">
+                                <figure>
+                                    <img id="huff" class="image" src="assets/images/icons/huff_realty_icon.jpg" alt="External link to Huff Realty">
+                                    <figcaption>Click/tap to visit Huff Realty website <br/> (external link - Flash required)</figcaption>
+                                </figure>
+                                <div class="overlay">
+                                    <div class="text"><h3>Huff Realty</h3></div>
+                                    <div class="text">Home Sale Brochure</div>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                    <td class="d-none d-lg-block">
+                        <div class="icon-container two-row-text">
+                            <!--<p>now is the time for all good men to come to the aid of their country</p>-->
+                            <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
+                                <figure>
+                                    <img class="nky image" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention and Visitors Bureau">
+                                    <figcaption>Click/tap to visit NKY CVB website <br/> (external link)</figcaption>
+                                </figure>
+                                <div class="overlay">
+                                    <div class="text"><h3>Northern Kentucky</h3></div>
+                                    <div class="text">Convention & Visitors Bureau</div>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
 
-            <div class="row">
-                <div class="d-lg-none d-xl-none col-12 text-center">
-                    <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
-                        <figure>
-                            <img class="nku" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">
-                            <figcaption>Click/tap to visit NKY CVB website</figcaption>
-                            <figcaption>(external link)</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-12 d-none d-lg-block text-center">
-                    <a href="allstate.html">
-                        <figure>
-                            <img id="allstate" src="assets/images/icons/allstate_insurance_icon.jpg" alt="Link to Allstate executive images">
-                            <figcaption style="margin-left:10px;">Click/tap to view Allstate headshots</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
+
+                <tr class="d-lg-none d-xl-none" align="center">
+                    <td>
+                        <div class="icon-container two-row-text">
+                            <a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">
+                                <figure>
+                                    <img class="nky image" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention & Visitors Bureau">
+                                    <figcaption>Click/tap to visit NKY CVB website <br/> (external link)</figcaption>
+                                </figure>
+                                <div class="overlay">
+                                    <div class="text"><h3>Northern Kentucky</h3></div>
+                                    <div class="text">Convention & Visitors Bureau</div>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td colspan="2">
+                        <div class="icon-container one-row-text">
+                            <a href="allstate.html" target="_blank">
+                                <figure>
+                                    <img id="allstate" class="image" src="assets/images/icons/allstate_insurance_icon.jpg" alt="Link to Allstate employee images">
+                                    <figcaption>Click/tap to view Allstate headshots</figcaption>
+                                </figure>
+                            </a>
+                            <div class="overlay">
+                                <div class="text"><h3>Allstate Insurance</h3></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
         </div>
-
     </section>
+
+            <!--<div class="row">-->
+                <!--<div class="col-12 col-lg-6 text-center">-->
+                    <!--<a href="http://www.joomag.com/magazine/928-squire-oaks-dr-villa-hills-volume-1/0868621001375378595?page=3" target="_blank">-->
+                        <!--<figure>-->
+                            <!--<img id="huff" src="assets/images/icons/huff_realty_icon.jpg" alt="External link to Huff Realty">-->
+                            <!--<figcaption>Click/tap to visit Huff Realty website</figcaption>-->
+                            <!--<figcaption>(external link - Flash required)</figcaption>-->
+                        <!--</figure>-->
+                    <!--</a>-->
+                <!--</div>-->
+
+                <!--<div class="d-none d-lg-block col-lg-6 text-center">-->
+                    <!--<a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">-->
+                        <!--<figure>-->
+                            <!--<img class="nku" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">-->
+                            <!--<figcaption>Click/tap to visit NKY CVB website</figcaption>-->
+                            <!--<figcaption>(external link)</figcaption>-->
+                        <!--</figure>-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+
+
+
+            <!--<div class="row">-->
+                <!--<div class="d-lg-none d-xl-none col-12 text-center">-->
+                    <!--<a href="https://www.meetnky.com/learn/meet-our-team/" target="_blank">-->
+                        <!--<figure>-->
+                            <!--<img class="nku" src="assets/images/icons/visitors_bureau_icon.jpg" alt="External link to Northern Kentucky Convention Visitors Bureau">-->
+                            <!--<figcaption>Click/tap to visit NKY CVB website</figcaption>-->
+                            <!--<figcaption>(external link)</figcaption>-->
+                        <!--</figure>-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="row">-->
+                <!--<div class="col-12 d-none d-lg-block text-center">-->
+                    <!--<a href="allstate.html">-->
+                        <!--<figure>-->
+                            <!--<img id="allstate" src="assets/images/icons/allstate_insurance_icon.jpg" alt="Link to Allstate executive images">-->
+                            <!--<figcaption style="margin-left:10px;">Click/tap to view Allstate headshots</figcaption>-->
+                        <!--</figure>-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
 
     <footer>
         <!--MUST-DO always wrap row divs in a container div to avoid back and forth play-->

@@ -37,7 +37,8 @@ section {
 
 h3 {
     /*padding: 15px 0;*/
-    color: #fff7e2;
+    /*color: #fff7e2;*/
+    color: #ea8f20;
 }
 
 img {
@@ -47,6 +48,7 @@ img {
 
 figcaption {
     color: #a7a7a7;
+    font-size: medium;
 }
 
 figcaption:hover {
@@ -178,7 +180,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    background: rgba(167,167,167,0.2);
+    background: rgba(255,255,255,0.25);
 }
 
 /*BS OR*/
@@ -321,11 +323,11 @@ div > img {
 
 /*---------------Corporate Page---------------*/
 
-#huff, .nku, #allstate {
+#huff, .nky, #allstate {
     border: 2px solid white;
 }
 
-#huff:hover, .nku:hover, #allstate:hover {
+#huff:hover, .nky:hover, #allstate:hover {
     border: 2px solid gold;
 }
 
@@ -333,10 +335,10 @@ figure {
     /*align-content: center;*/
 }
 
-#corp-container {
-    max-width: 900px;
-}
-
+/*#corp-container {*/
+    /*max-width: 900px;*/
+/*}*/
+/**/
 #allstate-execs {
     margin: 20px auto;
 }
@@ -405,7 +407,7 @@ figure {
     /*padding: 0;*/
     margin: auto;
     /*width: 50% !important;*/
-    width: 340px;
+    width: 330px;
 }
 
 @media (min-width: 992px) {
