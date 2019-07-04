@@ -97,7 +97,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 92px;
+    height: 91px;
     background: black;
     border-bottom: 2px solid rgba(167,167,167,0.5);
 }
@@ -195,6 +195,7 @@ a.nav-link:hover {
     /*border-bottom: 1px solid rgba(167,167,167,0.5);*/
     max-width: 1300px;
     margin: 0 auto;
+    height: 89px;
     /*max-width: 1500px;*/ /*limits the width but left justifies the nav*/
 }
 
@@ -240,10 +241,14 @@ nav a {
     padding: 0;
 }
 
-#fountain {
+#fountain, #fountain-alt {
     width: 90%;
     align-content: center;
     padding: 0;
+}
+
+#fountain-alt {
+    margin-top: 20px;
 }
 
 
