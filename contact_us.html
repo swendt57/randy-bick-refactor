@@ -23,32 +23,32 @@
             var email = document.forms["photography_inquiry"]["required-email"];
             var comments = document.forms["photography_inquiry"]["required-comments"];
 
-            if (name.value == null || name.value == "") {
+            if (name.value === null || name.value == "") {
                 alert('here');
                 missing = true;
                 name.style.background = "yellow";
             } else {
                 name.style.background = "white";
             }
-            if (phone.value == null || phone.value == "") {
+            if (phone.value === null || phone.value == "") {
                 missing = true;
                 phone.style.background = "yellow ";
             } else {
                 phone.style.background = "white";
             }
-            if (email.value == null || email.value == "") {
+            if (email.value === null || email.value == "") {
                 missing = true;
                 email.style.background = "yellow ";
             } else {
                 email.style.background = "white";
             }
-            if (comments.value == null || comments.value == "") {
+            if (comments.value === null || comments.value == "") {
                 missing = true;
                 comments.style.background = "yellow";
             } else {
                 comments.style.background = "white";
             }
-            if (missing == true) {
+            if (missing === true) {
                 alert("All highlighted fields are required, thanks!");
                 return false;
             }
@@ -68,48 +68,46 @@
 
             <h3 class="pageHead">Contact Us</h3>
 
-                <p>Thank you for your interest in Randy Bick Photograhy</p>
+            <p>Thank you for your interest in Randy Bick Photograhy</p>
 
-                <p>Do you have questions or would like to place an order?  If so, please complete and submit the following information so we can contact you:</p>
+            <p>Do you have questions or would like to place an order?  If so, please complete and submit the following information so we can contact you:</p>
 
-                <form action="http://www.randybick.com/cgi-bin/cgiemail/email_template.txt" method="post" name="photography_inquiry" id="photography_inquiry" onsubmit="return validateForm()">
+            <form action="http://www.randybick.com/cgi-bin/cgiemail/email_template.txt" method="post" name="photography_inquiry" id="photography_inquiry" onsubmit="return validateForm()">
 
-                    <div class="container">
-                    <input type="hidden" name="success" value="http://www.randybick.com/thank-you.html">
+                <div class="container">
+                <input type="hidden" name="success" value="http://www.randybick.com/thank-you.html">
 
-                        <div class="row">
-                            <div class="col-4 text-right align-self-center"><label for="name">Name:</label></div>
-                            <div class="col-4"><input type="text" id="name" name="required-name" class="formfields" required autofocus autocomlete></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right align-self-center"><label for="phone">Phone Number:</label></div>
-                            <div class="col-4"><input type="tel" id="phone" name="required-phone" class="formfields" required></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right align-self-center"><label for="phone">Phone Type</label></div>
-                            <div class="col-4"><input type="radio" name="phoneType" value="home"> Home
-                                <input type="radio" name="phoneType" value="cell"> Cell</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right align-self-center"><label for="email">Email:</label></div>
-                            <div class="col-4"><input type="email"id="email" name="required-email" class="formfields" required autocomplete placeholder="Enter valid email address"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right align-self-center"><label for="comments">What can we do for you?:</label></div>
-                            <div class="col-4"><textarea id="comments" name="required-comments" class="commentbox" required></textarea></div>
-                        </div>
-                        <div class="row text-right">
-                            <div class="col-8"><input type="submit" class="btn btn-primary" value="Submit"> <input type="reset" class="btn btn-secondary" value="Reset Form"></div>
-                        </div>
-
-
+                    <div class="row">
+                        <div class="col-4 text-right align-self-center"><label for="name">Name:</label></div>
+                        <div class="col-4"><input type="text" id="name" name="required-name" class="formfields" required autofocus autocomlete></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 text-right align-self-center"><label for="phone">Phone Number:</label></div>
+                        <div class="col-4"><input type="tel" id="phone" name="required-phone" class="formfields" required></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 text-right align-self-center"><label for="phone">Phone Type</label></div>
+                        <div class="col-4"><input type="radio" name="phoneType" value="home"> Home
+                            <input type="radio" name="phoneType" value="cell"> Cell</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 text-right align-self-center"><label for="email">Email:</label></div>
+                        <div class="col-4"><input type="email"id="email" name="required-email" class="formfields" required autocomplete placeholder="Enter valid email address"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 text-right align-self-center"><label for="comments">What can we do for you?:</label></div>
+                        <div class="col-4"><textarea id="comments" name="required-comments" class="commentbox" required></textarea></div>
+                    </div>
+                    <div class="row text-right">
+                        <div class="col-8"><input type="submit" class="btn btn-primary" value="Submit"> <input type="reset" class="btn btn-secondary" value="Reset Form"></div>
                     </div>
 
-                </form>
+                </div>
 
-            </div>
+            </form>
 
         </div>
+
     </section>
 
     <footer>
