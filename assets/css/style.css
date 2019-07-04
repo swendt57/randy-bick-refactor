@@ -52,6 +52,7 @@ figcaption:hover {
     color: white;
 }
 
+
 a:hover {
     text-decoration: none;
 }
@@ -96,9 +97,9 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 91px;
+    height: 92px;
     background: black;
-    border-bottom: 1px solid rgba(167,167,167,0.5);;
+    border-bottom: 2px solid rgba(167,167,167,0.5);
 }
 
 .company-name,
@@ -215,11 +216,16 @@ nav a {
     padding: 0;
 }
 
-#splash-text {
+#splash-text, #splash-text-sm {
     font-family: "Taviraj", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: 30px 20px 20px;
+    padding: 30px 20px 15px;
+}
+
+#splash-text-sm {
+    font-size: .8rem;
+    padding: 0 0 10px;
 }
 
 #beach {
@@ -265,6 +271,21 @@ div > img {
 #randy {
     border: 1px solid white;
     margin: 10px;
+    width: 140px;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    #randy {
+        width: 155px;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    #randy {
+        width: 170px;
+    }
 }
 
 /* styles for tablet */
@@ -302,6 +323,10 @@ figure {
 
 #corp-container {
     max-width: 900px;
+}
+
+#allstate {
+    marging: 20px, auto;
 }
 
 /*#anything {*/
@@ -389,8 +414,26 @@ figure {
     /*width: 50px;*/
 /*}*/
 
+/*---------------Contact Us Page---------------*/
 
-/*---------------Footer---------------*/
+.contact-container {
+    max-width: 800px;
+}
+
+#photography_inquiry input, textarea {
+    margin: 10px;
+}
+
+#photography_inquiry label {
+    vertical-align: center;
+}
+
+:required {
+    border-color: #800000;
+    border-width: 4px;
+}
+
+    /*---------------Footer---------------*/
 
 #copyright {
     font-size: .75rem;

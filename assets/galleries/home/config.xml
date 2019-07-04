@@ -10,7 +10,7 @@
 	enableLooping="true"
 	imagePadding="10"
 	backButtonPosition="overlay"
-	backButtonUrl="http://www.randybick.com"
+	backButtonUrl="../../../index.html"
 	backButtonText="Return to home page"
 	backButtonUseIcon="true"
 	thumbWidth="128"
