@@ -310,12 +310,13 @@ div > img {
     border-radius: 50px;
 }
 
-/*#signature-div {*/
-    /*width: 375px;*/
-    /*height: 200px;*/
+#signature-div {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
     /*!*background:url("./signature.gif");*!*/
     /*!*box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,.1);*!*/
-/*}*/
+}
 
 /* styles for tablet */
 /*@media (min-width: 768px) {*/
