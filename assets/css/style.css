@@ -302,6 +302,21 @@ div > img {
     }
 }
 
+#signature {
+    width: 350px;
+    height: 165px;
+    margin-left: 5px;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 50px;
+}
+
+/*#signature-div {*/
+    /*width: 375px;*/
+    /*height: 200px;*/
+    /*!*background:url("./signature.gif");*!*/
+    /*!*box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,.1);*!*/
+/*}*/
+
 /* styles for tablet */
 /*@media (min-width: 768px) {*/
     /*section .container {*/
