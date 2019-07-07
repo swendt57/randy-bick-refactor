@@ -1,28 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Taviraj:500,500i,700,700i,800,800i|Sansita:700,700i|Roboto:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Taviraj:500,500i,700,700i|Roboto:300,400,500,600,700&display=swap');
 
 /* BS OR = Bootstrap Override */
-
-/* TODOs */
-/* TODO change cursor to hand on hover */
-/* TODO change icon color on hover - not as easy as it sounds */
-/* TODO research using sass so I can include to other styles */
 
 /*---------------General Styles---------------*/
 
 html, body {
     margin: 0;
-
     height: 100%;
     width: 100%;
     display: table; /* used to position footer at bottom of short pages */
 }
 
 body {
-
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #151515;
-    /*background-color: white;*/
     color: #cccccc;
     padding: 60px 0 0 0;
 }
@@ -31,13 +23,7 @@ section {
     margin-top: 80px;
 }
 
-.row {
-    margin: 0;
-}
-
 h3 {
-    /*padding: 15px 0;*/
-    /*color: #fff7e2;*/
     color: #ea8f20;
 }
 
@@ -55,6 +41,9 @@ figcaption:hover {
     color: white;
 }
 
+.row {
+    margin: 0;
+}
 
 a:hover {
     text-decoration: none;
@@ -80,20 +69,7 @@ a:hover {
     }
 }
 
-
-
-
-/*---------------Colors---------------*/
-
-.default-color {
-    color: #e6e6e6;
-}
-
-/*---------------Header Styles---------------*/
-
-/*header {*/
-    /*border-bottom: 1px solid red;*/
-/*}*/
+/* --------------------Header Styles-------------------- */
 
 #header-bg {
     position: fixed;
@@ -102,7 +78,7 @@ a:hover {
     width: 100%;
     height: 91px;
     background: black;
-    border-bottom: 2px solid rgba(167,167,167,0.5);
+    box-shadow: 1px 1px 5px 5px rgba(255,255,255,0.15);
 }
 
 .company-name,
@@ -129,10 +105,6 @@ a:hover {
 }
 .nav-text-lg {
     font-size: 15px;
-}
-
-.nav-item {
-    background: black;
 }
 
 /* styles for tablet */
@@ -169,6 +141,10 @@ a:hover {
     }
 }
 
+.nav-item {
+    background: black;
+}
+
 a.nav-link {
     font-family: "Taviraj", sans-serif;
     font-weight: 700;
@@ -195,33 +171,45 @@ a.nav-link:hover {
 
 /*BS OR*/
 .navbar {
-    /*background: rgba(21,21,21,0.85);*/
     background: black;
     padding: 6px 10px;
     z-index: 2;
-    /*border-bottom: 1px solid rgba(167,167,167,0.5);*/
     max-width: 1300px;
     margin: 0 auto;
     height: 89px;
-    /*max-width: 1500px;*/ /*limits the width but left justifies the nav*/
 }
 
-nav a {
-    color: #e6e6e6;
-}
 
-/*---------------Home Page---------------*/
+/* --------------------Home Page-------------------- */
 #skyline {
     width: 90%;
-    align-content: center;
-    border: 2px solid #ea8f20;
+    border: 1.5px solid #ea8f20;
     padding: 0;
 }
 
 #couple {
     width: 70%;
-    align-content: center;
     padding: 0;
+}
+
+#beach {
+    width: 80%;
+    padding: 0;
+}
+
+#girl {
+    width: 60%;
+    padding: 0;
+}
+
+#fountain, #fountain-alt {
+    width: 90%;
+    padding: 0;
+    border: 1px solid #ea8f20;
+}
+
+#fountain-alt {
+    margin-top: 30px;
 }
 
 #splash-text, #splash-text-sm {
@@ -236,55 +224,49 @@ nav a {
     padding: 0 0 10px;
 }
 
-#beach {
-    width: 80%;
-    align-content: center;
+/* styles for tablet */
+@media (min-width: 768px) {
+    #splash-text {
+        font-size: 1.1rem;
+    }
+    #splash-text-sm {
+        font-size: .85rem
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    #splash-text {
+        font-size: 1.2rem
+    }
+    #splash-text-sm {
+        font-size: .9rem
+    }
+}
+
+/* --------------------Galleries-------------------- */
+#juicebox-container {
     padding: 0;
+    position: absolute;
+    bottom: 0;
 }
 
-#girl {
-    width: 60%;
-    align-content: center;
-    padding: 0;
+#gallery-content {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+
+    /*height: -webkit-calc(100% - 125px);*/
+    padding-top: 0;
+    margin-top: 0;
 }
 
-#fountain, #fountain-alt {
-    width: 90%;
-    align-content: center;
-    padding: 0;
-    border: 1px solid #ea8f20;
-}
-
-#fountain-alt {
-    margin-top: 30px;
-}
-
-
-
-/*!* styles for tablet *!*/
-/*@media (min-width: 768px) {*/
-    /*#splash-text {*/
-        /*font-size: 1.1rem;*/
-    /*}*/
-/*}*/
-
-/*!* styles for desktop *!*/
-/*@media (min-width: 992px) {*/
-    /*#splash-text {*/
-        /*font-size: 1.2rem*/
-    /*}*/
-/*}*/
-
-div > img {
-    padding: 5px;
-}
-
-/*---------------About Page---------------*/
+/* --------------------About Page-------------------- */
 
 #randy {
     border: 2px solid white;
     margin: 10px 20px;
-    width: 140px;
+    width: 130px;
     alignment: right;
 }
 
@@ -302,43 +284,24 @@ div > img {
     }
 }
 
+.about-container {
+    padding: 0 10px;
+}
+
 #signature {
-    width: 350px;
-    height: 165px;
-    margin-left: 5px;
-    border: 2px solid rgba(255,255,255,.2);
+    width: 340px;
+    padding: 0;
     border-radius: 50px;
+    box-shadow: 0px 0px 3px 3px rgba(255,255,255,.2);
 }
 
 #signature-div {
     width: 100%;
-    height: 200px;
-    margin-top: 30px;
-    /*!*background:url("./signature.gif");*!*/
-    /*!*box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,.1);*!*/
+    margin: 30px 0 0 0;
+    padding: 0;
 }
 
-/* styles for tablet */
-/*@media (min-width: 768px) {*/
-    /*section .container {*/
-        /*max-width: 80%;*/
-    /*}*/
-/*}*/
-
-/*!* styles for desktop *!*/
-/*@media (min-width: 992px) {*/
-    /*section .container {*/
-        /*max-width: 65%;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 1200px) {*/
-    /*section .container {*/
-        /*max-width: 1000px;*/
-    /*}*/
-/*}*/
-
-/*---------------Corporate Page---------------*/
+/* --------------------Corporate Page-------------------- */
 
 #huff, .nky, #allstate {
     border: 2px solid white;
@@ -348,14 +311,6 @@ div > img {
     border: 2px solid gold;
 }
 
-figure {
-    /*align-content: center;*/
-}
-
-/*#corp-container {*/
-    /*max-width: 900px;*/
-/*}*/
-/**/
 #allstate-execs {
     margin: 20px auto;
 }
@@ -371,12 +326,7 @@ figure {
     text-align: center;
 }
 
-/*#anything {*/
-    /*!*align-content: center;*!*/
-    /*padding-left: 50px;*/
-/*}*/
-
-/*---------------Portraits Page---------------*/
+/* --------------------Portraits Page-------------------- */
 
 #lainie, .paige, #lainie-portrait {
     border: 2px solid white;
@@ -396,14 +346,7 @@ figure {
     margin-top: 5%;
 }
 
-@media (min-width: 992px) {
-    /*#lainie-div {*/
-        /*text-align: right;*/
-    /*}*/
-}
-
-
-/*---------------Families Page---------------*/
+/* --------------------Families Page-------------------- */
 
 #klesa, .due {
     border: 2px solid white;
@@ -418,24 +361,11 @@ figure {
     text-align: center;
 }
 
-@media (min-width: 992px) {
-    /*#klesa-div {*/
-        /*text-align: right;*/
-    /*}*/
-}
-
-/*.mytest {*/
-    /*!*margin: auto;*!*/
-    /*width: 300px;*/
-/*}*/
-
-
-
 .table-sm {
-    /*padding: 0;*/
+    padding: 0;
     margin: auto;
     /*width: 50% !important;*/
-    width: 330px;
+    /*width: 330px;*/
 }
 
 @media (min-width: 992px) {
@@ -445,19 +375,7 @@ figure {
     }
 }
 
-.table-sm td {
-    /*padding: 0;*/
-    /*padding-right: 20px;*/
-    /*padding-left: 20px;*/
-    /*width: 300px;*/
-}
-
-
-/*.spacer {*/
-    /*width: 50px;*/
-/*}*/
-
-/*---------------Contact Us Page---------------*/
+/* --------------------Contact Us Page-------------------- */
 
 .contact-container {
     max-width: 800px;
@@ -476,7 +394,7 @@ figure {
     border-width: 4px;
 }
 
-    /*---------------Footer---------------*/
+/* --------------------Footer-------------------- */
 
 #copyright {
     font-size: .75rem;

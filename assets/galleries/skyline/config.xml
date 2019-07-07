@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery
-	galleryTitle="Randy Bick"
-	galleryTitleHAlign="right"
 	buttonBarPosition="overlay_image"
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
@@ -11,10 +9,6 @@
 	frameWidth="0"
 	imageFrameColor="rgba(167,167,167,1)"
 	imagePadding="10"
-	backButtonPosition="overlay"
-	backButtonUrl="../../../index.html"
-	backButtonText="Return to home"
-	backButtonUseIcon="true"
 	thumbWidth="102"
 	thumbHeight="85"
 	thumbCornerRadius="5"

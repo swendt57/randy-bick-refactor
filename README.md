@@ -21,7 +21,7 @@ I did create some mock-ups in Balsamiq Mockup 3 and these can be downloaded from
 
 * A **Home** page that displays a few of Randy's images and  has a photo gallery attached to it.
 * An **About Randy** page that gives a brief highlight of Randy's accomplishments.
-* A **Fine Art** gallery that displays some of Randy's more recent Cincinnati, Ohio and- Covington, Kentucky skylines.
+* A **Fine Art** gallery that displays some of Randy's more recent Cincinnati, Ohio and Covington, Kentucky "city scapes."
 * A **Corporate Photography** page that shows examples of some of the corporate work Randy has done.
 * A **Portraits** page that highlight two different possible photographic packages, a single collage or an album.
 * A **Family Portraits** page that has galleries showing the albums for two different families.
@@ -29,7 +29,7 @@ I did create some mock-ups in Balsamiq Mockup 3 and these can be downloaded from
 
 **Possible future work:**
 
-* Expand the Fine Art section with some other examples beyond skylines.
+* Expand the Fine Art section with some other examples beyond city scapes.
 * Add in pricing. He used to have very specific pricing, but removed it a while back. He may put some general pricing 
 estimates back in at some point.
 
