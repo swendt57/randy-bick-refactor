@@ -1,0 +1,11 @@
+To: rbick@randybick.com
+Subject: Photography Information Request
+Cc: stevewendt@cox.net
+
+Photography Information Request
+
+Name: [required-name]
+Phone Number: [required-phone]
+Phone Type: [phoneType]
+Email: [required-email]
+Comments: [required-comments]

@@ -13,10 +13,10 @@
 	thumbHeight="85"
 	thumbCornerRadius="5"
 	thumbFrameColor="rgba(0,0,0,.5)"
-	thumbHoverFrameWidth="5"
 	captionPosition="none"
 	maxThumRows="1"
-	thumbSelectedFrameWidth="4"
+	thumbSelectedFrameWidth="2"
+	thumbHoverFrameWidth="2"
 	showAutoPlayButton="true"
 >
 <!-- backButtonUseIcon="true" -->

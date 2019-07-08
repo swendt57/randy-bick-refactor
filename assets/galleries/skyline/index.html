@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../assets/css/style.css"/>
 
-    <script src="../../../assets/scripts/include_script.js"></script> <!-- temporary include function that mimics SSI -->
+    <script src="../../../assets/scripts/include_script.js"></script> <!-- function that mimics SSI -->
 
 
     <title>Randy Bick Photography</title>
@@ -17,7 +17,7 @@
 <body>
 
 <header>
-    <div w3-include-html="../../../header.html"></div> <!-- temporary JS SSI -->
+    <div w3-include-html="../../../header.html"></div>
 </header>
 
 <section>
@@ -29,7 +29,7 @@
             <!--START JUICEBOX EMBED-->
             <script src="jbcore/juicebox.js"></script>
             <script>
-                let height = window.innerHeight - 120;
+                let height = window.innerHeight - 110;
 
                 new juicebox({
                     containerId: 'juicebox-container',

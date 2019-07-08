@@ -149,8 +149,8 @@ div.jb-idx-thb-list {
 	border-style: solid;
 }
 .jb-flag-large-screen-mode .jb-thm-thumb-selected .jb-idx-thb-frame {
-	border-color: rgb(255, 255, 255);
-	border-color: rgba(255, 255, 255, .5);
+	border-color: rgb(255, 255, 0);
+	border-color: rgba(255, 255, 0, .5);
 	border-style: solid;
 }
 .jb-flag-msie .jb-idx-thb-frame {	/* the frame around thumbnail won't work correctly on IE without this */

@@ -13,11 +13,12 @@
 	thumbHeight="85"
 	thumbCornerRadius="5"
 	maxThumRows="1"
-	thumbSelectedFrameWidth="4"
+	thumbSelectedFrameWidth="2"
+	thumbHoverFrameWidth="2"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >
-<!-- backButtonUseIcon="true" -->
+
   <image imageURL="images/001.jpg"
 	thumbURL="thumbs/001.jpg"
 	linkURL="images/001.jpg"

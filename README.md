@@ -70,7 +70,22 @@ estimates back in at some point.
   
 ### Testing
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Since this is a basic website and not an application, testing was limited to testing all links and galleries on: 
+* Chrome version 75.0.3770.100 browser including:
+  * Galaxy S5 simulator
+  * iPhone 6/7/8 simulator
+  * iPad simulator
+  *iPad Pro simulator
+* Firefox 67.0.4 browser including:
+  * Galaxy S9/S9+ simulator
+  * iPhone X/XS simulator
+  * Kindle Fire HDX simulator
+* Edge 42.17134.1.0 browser
+* Galaxy S7 phone with:
+  * Chrome mobile version 75.0.3770.100
+  * Firefox for Android version 67.0.3
+
+Edge, and Safari desktop browsers. Additionally, I tested the site on a Galaxy 7 phone
 
 ### Deployment
  I have deployed the code using GitHub pages at https://swendt57.github.io/randy-bick-refactor as well as below a subfolder

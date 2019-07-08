@@ -14,7 +14,8 @@
 	thumbCornerRadius="5"
 	thumbFrameColor="rgba(255,255,255,.2)"
 	maxThumRows="1"
-	thumbSelectedFrameWidth="4"
+	thumbSelectedFrameWidth="2"
+	thumbHoverFrameWidth="2"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >
@@ -98,3 +99,7 @@
   </image>
   
 </juiceboxgallery>
+
+		<!--useThumbDots="true"-->
+		<!--thumbDotColor="rgba(234,143,32,1)"-->
+		<!--thumbDotHoverColor="rgba(234,143,32,1)"-->
