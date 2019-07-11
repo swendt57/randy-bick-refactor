@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery
-	buttonBarPosition="overlay_image"
+	buttonBarPosition="overlay"
+	backButtonPosition="overlay"
+	backButtonText="Back to Families"
+	backButtonUrl="../../../families.html"
+	showSmallBackButton="true"
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
 	displayTime="3"

@@ -11,13 +11,14 @@
 
     <script src="../../../assets/scripts/include_script.js"></script> <!-- function that mimics SSI -->
 
+    <style> .families {color: #ea8f20;} </style>
 
     <title>Randy Bick Photography</title>
 </head>
 <body>
 
 <header>
-    <div w3-include-html="../../../header.html"></div>
+    <!--<div w3-include-html="../../../header.html"></div>-->
 </header>
 
 <section>
@@ -29,7 +30,21 @@
             <!--START JUICEBOX EMBED-->
             <script src="jbcore/juicebox.js"></script>
             <script>
-                let height = window.innerHeight - 110;
+                let innerWidth = window.innerWidth;
+                let innerHeight = window.innerHeight;
+
+                let height=0, width=0;
+
+                if (innerWidth <=767) {
+                    width = '100%';
+                    // height = innerHeight - 90;
+                    height = '100%'
+                } else {
+                    width = '100%';
+                    height = innerHeight - 110;
+                }
+
+                alert(`width: ${width} height: ${height}`);
 
                 new juicebox({
                     containerId: 'juicebox-container',

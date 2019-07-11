@@ -16,7 +16,7 @@ body {
     font-size: 16px;
     background-color: #151515;
     color: #cccccc;
-    padding: 60px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 section {
@@ -25,6 +25,7 @@ section {
 
 h3 {
     color: #ea8f20;
+    margin: 15px 0 30px 0;
 }
 
 img {
@@ -53,9 +54,10 @@ a:hover {
 @media (min-width: 768px) {
     body {
         font-size: 1.05rem;
+        margin: 50px 0 0 0;
     }
     h3 {
-        padding: 20px 0;
+        margin:30px 0 35px 0;
     }
 }
 
@@ -63,9 +65,10 @@ a:hover {
 @media (min-width: 992px) {
     body {
         font-size: 1.1rem;
+        margin: 60px 0 0 0;
     }
     h3 {
-        padding: 25px 0;
+        margin: 40px 0 40px 0;
     }
 }
 
@@ -84,20 +87,29 @@ a:hover {
 .company-name,
 .company-name-lg,
 .nav-text,
-.nav-text-lg{
+.nav-text-lg {
     font-family: "Taviraj", sans-serif;
     font-weight: 700;
     font-style: italic;
-    color: #a7a7a7;
+}
+
+.company-name,
+.company-name-lg {
+    /*color: #a7a7a7;*/
+}
+
+.nav-text,
+.nav-text-lg {
+    /*color: #a7a7a7;*/
 }
 
 .company-name {
     font-size: 17px;
-    letter-spacing: .05rem;
+    letter-spacing: .03rem;
 }
 .company-name-lg {
     font-size: 21px;
-    letter-spacing: .05rem;
+    letter-spacing: .03rem;
 }
 
 .nav-text {
@@ -146,34 +158,34 @@ a:hover {
 }
 
 a.nav-link {
-    font-family: "Taviraj", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 17px;
+    margin-right: 8px;
     color: #a7a7a7;
-    margin-right: 10px;
-    vertical-align: center;
 }
 
 a.nav-link:hover {
     background: rgba(255,255,255,0.25);
+    border-radius: 8px;
+    color: #e6e6e6;
 }
 
 /*BS OR*/
-.navbar-brand {
+a.navbar-brand {
     margin-right: 8px;
+    color: #a7a7a7;
 }
 
 /*BS OR*/
 .navbar-toggler {
     padding: 4px;
+    border: 2px solid gray;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gray' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /*BS OR*/
 .navbar {
     background: black;
-    padding: 6px 10px;
-    z-index: 2;
+    /*padding: 6px 10px;*/
+    z-index: 1100;
     max-width: 1300px;
     margin: 0 auto;
     height: 89px;
