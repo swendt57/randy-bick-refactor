@@ -2,6 +2,10 @@
 
 <juiceboxgallery
 	buttonBarPosition="overlay_image"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText="Back to Home"
+	backButtonUrl="../../../index.html"
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
 	displayTime="3"
@@ -12,10 +16,10 @@
 	thumbWidth="102"
 	thumbHeight="85"
 	thumbCornerRadius="5"
-	thumbFrameColor="rgba(255,95,60,.2)"
-	maxThumRows="1"
-	thumbSelectedFrameWidth="2"
-	thumbHoverFrameWidth="2"
+	thumbFrameColor="rgba(255,95,60,.5)"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >

@@ -2,6 +2,10 @@
 
 <juiceboxgallery
 	buttonBarPosition="overlay_image"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText="Back to Portraits"
+	backButtonUrl="../../../portraits.html"
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
 	displayTime="3"
@@ -14,9 +18,9 @@
 	thumbCornerRadius="5"
 	thumbFrameColor="rgba(0,0,0,.5)"
 	captionPosition="none"
-	maxThumRows="1"
-	thumbSelectedFrameWidth="2"
-	thumbHoverFrameWidth="2"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 >
 <!-- backButtonUseIcon="true" -->

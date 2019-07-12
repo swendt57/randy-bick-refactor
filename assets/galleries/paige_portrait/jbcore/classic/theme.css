@@ -1,7 +1,7 @@
 /**
- * Juicebox 1.3.3 Classic Theme
+ * Juicebox 1.5.1 Classic Theme
  *
- * Copyright (c) 2013 Juicebox Inc. All rights reserved.
+ * Copyright (c) 2015 Juicebox Inc. All rights reserved.
  * http://www.juicebox.net
  *
  * BY USING THIS SOFTWARE, YOU AGREE TO THE JUICEBOX TERMS OF USE
@@ -9,21 +9,63 @@
  *
  * Support and Documentation: http://www.juicebox.net/support
  *
- * Build Time: 10/14/2013 09:23:33 PM
+ * Build Time: 07/31/2017 12:38:07 PM
  */
 
+body
+{
+	-ms-overflow-style: scrollbar;
+}
+ 
 .juicebox-gallery
 {
 	outline: none;
+	font-family: 'juicebox';
+	direction: ltr;
 }
+
 .juicebox-gallery h1, .juicebox-gallery h2, .juicebox-gallery h3, .juicebox-gallery h4,
-.juicebox-gallery div, .juicebox-gallery p, .juicebox-gallery span{
+.juicebox-gallery div, .juicebox-gallery span, .juicebox-gallery p{
 	border-spacing: 0;
 	padding: 0;
 	margin: 0;
 	border: none 0;
 	vertical-align: middle;	/*don't make this "!important", or the next "vertical-align: bottom;" will be broken. */
-	line-height: 1;
+	line-height: 1.1;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	font-family: inherit;
+}
+
+.juicebox-gallery a, .juicebox-gallery u {
+	margin: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.juicebox-gallery .jb-idx-thb-list-page-number,
+.juicebox-gallery .jb-area-large-mode-title,
+.juicebox-gallery .jb-idx-title,
+.juicebox-gallery .jb-idx-title textarea,
+.juicebox-gallery .jb-area-caption,
+.juicebox-gallery .jb-area-caption div,
+.juicebox-gallery .jb-splash h3,
+.juicebox-gallery .jb-splash p,
+.juicebox-gallery .jb-splash a,
+.juicebox-gallery .jb-go-back a,
+.juicebox-gallery .jb-idx-thumbnail-show-more a,
+.juicebox-gallery .jb-status-message,
+#jb-glry-dlg{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.juicebox-gallery .jb-splash h3 p,
+.juicebox-gallery .jb-splash h3 a,
+.juicebox-gallery .jb-splash p a,
+.juicebox-gallery .jb-go-back h3 a{
+	font-family: inherit;
 }
 
 .juicebox-gallery table, .juicebox-gallery tr, .juicebox-gallery td, .juicebox-gallery tbody{
@@ -54,11 +96,18 @@
 	vertical-align: middle;
 }
 
+body.jb-flag-fullscreen{
+	overflow: hidden !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
 .juicebox-gallery li {
 	list-style: none
 }
 
-.juicebox-gallery p {
+.juicebox-gallery p
+{
 	width: auto;
 	height: auto;
 	padding: 0;
@@ -74,6 +123,16 @@
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
+}
+
+.juicebox-gallery textarea {
+    box-shadow: none;
+    transition: none;
+	padding: 0 1px;
+	margin: 0;
+	border-radius: 0;
+	display: block;
+	height: auto;
 }
 
 /*#162 otherwise there will be a white border around it in IE9*/
@@ -121,11 +180,17 @@ div.jb-idx-thb-list {
 	margin: 5px;
 	background-color: Transparent;
 }
+
 .jb-idx-thb-list .jb-idx-thumb {
 	float: left;
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.5);
 	position: relative;
 }
+
+div.jb-idx-thb-list .jb-thm-thumb-dot {
+    background-color: transparent;
+}
+
 .jb-idx-thb-list .jb-idx-thumb img {
 	border: 0px solid transparent;
 	cursor: pointer;
@@ -210,39 +275,59 @@ div.jb-area-caption
 	vertical-align: top;
 }
 .jb-cap-frame .jb-caption {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .3);
 	color: white;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 .jb-cap-frame .jbac-number {
 	float: right;
-	color: #ccc;
+	color: #fff;
 	width: 72px;
 	text-align: right;
 	font-size: 13px;
 	cursor:default;
+	margin: 6px 0 0 0;
+	line-height: 1.1;
 }
 .jb-caption .jb-caption-title {
 	font-size: 17px;
 	cursor:default;
+	margin-right: 72px;	/* equal to "width" in .jb-cap-frame .jbac-number; margin-top is set in code in order to hide the top margin when there is no desc */
 }
 
-.jb-caption p 
+.jb-caption p, .jb-caption span{
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+}
+
+.jb-caption div.jb-caption-desc
+{
+	font-size: 13px;
+	margin-right: 72px;	/* equal to "width" in .jb-cap-frame .jbac-number; margin-top is set in code in order to hide the top margin when there is no desc */
+}
+
+.jb-caption p,
+.jb-caption div
 {
 	margin-bottom: 0 !important;
-	margin-right: 72px;	/* equal to "width" in .jb-cap-frame .jbac-number; margin-top is set in code in order to hide the top margin when there is no desc */
 	margin-left: 0;
-	font-size: 13px;
-	line-height: 23px;
 	cursor:default;
+	font-size: inherit;
 }
+
+.jb-caption div
+{
+	line-height: 23px;
+}
+
 .jb-caption a {
 	color: white;
 }
 .jb-flag-msie-bf9 .jb-cap-frame .jb-caption {
 	background-color:Black;
 }
-p.jb-cap-content {
+div.jb-cap-content {
 	margin: 0 !important;
 	padding: 0 !important;
 }
@@ -263,7 +348,7 @@ p.jb-cap-content {
 	top: 10px;
 	padding: 5px 10px 5px 10px;
 	color: #FFFFFF;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4), 0 0 5px rgba(0,0,0,0.2);
 	font-size: 18px;
 	outline: none;
 	border: none;
@@ -281,20 +366,25 @@ p.jb-cap-content {
 }
 
 /* gallery button bar */
-.jb-classifier-link-wrapper {
+div.jb-classifier-link-wrapper {
 	display: none;
 	position: absolute;
 	top: 7px;
+	padding: 0 10px;
 }
 
 div.jb-bb-bar {
 	float: left;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .4);
 	padding: 0 4px 0 4px;
-	margin: 0 0 0 10px;
+	margin: 0;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+}
+
+.jb-classifier-thumb-area div.jb-bb-bar {
+	margin: 0 0 0 2px;
 }
 
 /*BUTTONS*/
@@ -371,10 +461,17 @@ div.jb-bb-splitter
 	height: 28px;
 	padding:0;
 }
+
+.dt-nav-disabled .jbn-nav-button-icon
+{
+	display: none !important;
+}
+
 .jb-navigation .jbn-nav-button-icon
 {
 	padding: 4px 2px 0 2px;
 	text-align: center;
+    line-height: 1;
 }
 
 .jb-flag-msie .jb-navigation .jbn-nav-button-icon
@@ -404,7 +501,7 @@ div.index-navigation.jb-navigation .jbn-nav-button-icon
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 }
 
 .jb-flag-msie-bf9 .jb-navigation .jbn-left-button
@@ -420,7 +517,7 @@ div.index-navigation.jb-navigation .jbn-nav-button-icon
 	-moz-border-radius: 14px;
 	-webkit-border-radius: 14px;
 	border-radius: 14px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 }
 
 .jb-flag-msie-bf9 .jb-navigation .jbn-right-button
@@ -460,6 +557,7 @@ div.index-navigation.jb-navigation .jbn-nav-button-icon
 	width: 50%;
 	position: relative;
 	cursor: pointer;
+	float: left;
 }
 
 .jb-flag-touchable .jb-navigation .jbn-nav-touch-area {
@@ -494,7 +592,7 @@ div.jb-go-back
 
 div.jb-go-back-icon-frame
 {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .4);
 	padding: 0 4px;	/*match div.jb-bb-bar to make them vertically align*/
 }
 
@@ -502,7 +600,7 @@ a.jb-go-back-icon
 {
 	cursor: pointer;
 	text-align: center;
-	margin: 0px;
+	margin: 0;
 	padding: 0px;
 	font-size: 13px;
 	height: 28px;
@@ -537,14 +635,14 @@ a.jb-go-back-icon
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 	height: auto;
 	width:100%;
 }
 .jb-splash-info p {
 	color: white;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 	line-height: 25px;
 	width:auto;
 }
@@ -558,20 +656,22 @@ p.jb-splash-desc
 p.jb-splash-cnt
 {
 	padding: 0 20px 20px 20px;
-	font-weight: bold;
+	font-weight: normal;
 }
 /* Splash page title, add important in order to avoid collisions with Word Press*/
 .jb-splash-info h3 {
 	color: white !important;
 	padding: 20px !important;
 	margin: 0 !important;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
-	font-size: 36px !important;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+	font-size: 26px !important;
+	font-weight: normal !important;
+	letter-spacing: 1px !important;
 }
 /* Splash 'View Gallery' Text*/
 a.jb-splash-view-glry {
-	color: White;
-	font-size: 22px;
+	color: white;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -588,6 +688,7 @@ div.jb-splash
 	position:relative;
 	margin:0;
 	padding:0;
+    cursor: pointer;
 }
 
 .jb-idx-thumbnail-container .jb-splash-holder img
@@ -612,7 +713,7 @@ div.jb-splash
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3), 0 0 5px rgba(0,0,0,0.2);
 	text-align:center;
 }
 
@@ -628,14 +729,14 @@ div.jb-splash
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
-	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3), 0 0 5px rgba(0,0,0,0.2);
+	font-weight: normal;
 	text-align:center;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	background-color: rgba(0, 0, 0, .5);
-
+    overflow: hidden;
 }
 
 /* gallery flag */
@@ -675,7 +776,6 @@ div.jb-status-loading {
 	font-family: 'juicebox';
 	src:url('fonts/juicebox.eot');
 	src:url('fonts/juicebox.eot?#iefix') format('embedded-opentype'),
-		url('fonts/juicebox.svg#juicebox') format('svg'),
 		url('fonts/juicebox.woff') format('woff'),
 		url('fonts/juicebox.ttf') format('truetype');
 	font-weight: normal;
@@ -686,7 +786,7 @@ div.jb-status-loading {
 
 div.jb-bb-button:before, .jb-thm-thumb-dot, a.jb-go-back-icon
 {
-	font-family: 'juicebox';
+	font-family: 'juicebox' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -719,6 +819,10 @@ div.jb-bb-button:before, .jb-thm-thumb-dot, a.jb-go-back-icon
 .jb-bb-button.jb-bb-btn-open-url:before
 {
 	content: "\e004";
+}
+.jb-bb-button.jb-bb-btn-download:before
+{
+	content: "\e017";
 }
 .jb-bb-button.jb-bb-btn-full-screen:before
 {
@@ -778,6 +882,10 @@ div.jb-bb-button:before, .jb-thm-thumb-dot, a.jb-go-back-icon
 .jb-bb-button.jb-bb-btn-tumblr:before
 {
 	content: "\e013";
+}
+.jb-bb-button.jb-bb-btn-email:before
+{
+	content: "\e016";
 }
 a.jb-go-back-icon:before
 {
@@ -878,6 +986,192 @@ a.jb-go-back-icon:before
 	content: "";
 }
 
+div.jb-idx-thumbnail-show-more {
+  	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.jb-idx-thumbnail-show-more a {
+   	text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#jb-glry-dlg {
+    z-index: 9999;
+	direction: ltr;
+}
+
+@media only screen {
+    @-ms-viewport {width: device-width; initial-scale: 1; user-scalable: no;}
+}
+
+.juicebox-gallery {
+	-ms-touch-action:none;
+}
+
+#jb-dialog-login-form{
+	width: 80%;
+	height: 50%;
+	top: 25%;
+	left: 10%;
+	position: relative;
+	padding:10px 10px 10px 20px;
+	border: none;
+	text-align: left;
+	color: #fff;
+	background: inherit;
+	box-shadow: none;
+	font-family: sans-serif;
+	max-width: 460px;
+}
+
+.jb-flag-fullscreen #jb-dialog-login-form{
+	width: 460px;
+	height: 200px;
+	position: absolute;
+	top:calc(50% - 110px);
+	left:calc(50% - 240px);
+}
+
+#jb-dialog-login-form-prompt{
+	font-size: 22px;
+}
+
+.jb-flag-fixed #jb-dialog-login-form-prompt{
+	font-size: 20px;
+}
+
+.jb-dialog-login-form-text{
+	margin:10px 0 2px 0;
+	font-size: 13px;
+	height: 20px;
+}
+
+.jb-dialog-input-area.jb-dialog-login-form-text{
+	height: 50px;
+}
+
+#jb-dialog-login-text{
+	width: 60%;
+	color: #333;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 10px 0 10px;
+	font-size: 17px;
+}
+
+.jb-flag-fullscreen #jb-dialog-login-text{
+	width: 300px;
+}
+
+input#jb-dialog-login-text::-webkit-input-placeholder {
+	font-size: 17px;
+}
+input#jb-dialog-login-text::-moz-placeholder {
+	font-size: 17px;
+}
+input#jb-dialog-login-text:-ms-input-placeholder {
+	font-size: 17px;
+}
+
+#jb-dialog-btn-login-submit{
+	margin-left: 10px;
+	height: 40px;
+	width: 15%;
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+
+.jb-flag-fullscreen #jb-dialog-btn-login-submit{
+	width: 70px;
+	font-size: 17px;
+}
+
+.jb-login-error-message{
+	color:red;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	display: none;
+}
+
+#jb-dialog-login-form-prompt-message{
+	margin-top:20px;
+	margin-left:0;
+}
+
+#jb-dialog-login-form a{
+	color:inherit;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 360px) {
+	.jb-flag-fullscreen #jb-dialog-login-form{
+		width:260px;
+		left:calc(50% - 140px);
+	}
+	.jb-flag-fullscreen  #jb-dialog-btn-login-submit{
+		width: 60px;
+	}
+
+	.jb-flag-fullscreen #jb-dialog-login-text{
+		width: 160px;
+		height: 35px;
+	}
+
+	.jb-flag-fullscreen #jb-dialog-login-form-prompt{
+		height: 30px;
+		font-size: 20px;
+	}
+
+	.jb-flag-fullscreen input#jb-dialog-login-text::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+
+	.jb-flag-fullscreen input#jb-dialog-login-text::-moz-placeholder {
+		font-size: 12px;
+	}
+
+	.jb-flag-fullscreen input#jb-dialog-login-text:-ms-input-placeholder {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+	.jb-flag-fullscreen #jb-dialog-login-form{
+		width:320px;
+		left:calc(50% - 170px);
+	}
+	.jb-flag-fullscreen .jb-dialog-login-form-text{
+		font-size: 12px;
+	}
+	.jb-flag-fullscreen #jb-dialog-btn-login-submit{
+		width: 60px;
+	}
+	.jb-flag-fullscreen #jb-dialog-login-text{
+		width: 220px;
+		height: 35px;
+	}
+
+	.jb-flag-fullscreen #jb-dialog-login-form-prompt{
+		height: 30px;
+		font-size: 20px;
+	}
+	.jb-flag-fullscreen input#jb-dialog-login-text::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+	.jb-flag-fullscreen input#jb-dialog-login-text::-moz-placeholder {
+		font-size: 12px;
+	}
+	.jb-flag-fullscreen input#jb-dialog-login-text:-ms-input-placeholder {
+		font-size: 12px;
+	}
+}
+
 .jcbx-glry-classic {
 	background: #222222;
 	color: white;
@@ -891,7 +1185,7 @@ a.jb-go-back-icon:before
 }
 
 .jcbx-glry-classic a{
-	color:#FFF;
+	color: inherit;
 }
 .jcbx-glry-classic:hover .button_bar {
 }
@@ -907,9 +1201,9 @@ a.jb-go-back-icon:before
 	 filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=270, Color='#000000');
 	 */
 }
-.jb-idx-title {
+.jb-idx-title, .jb-idx-title textarea, .jb-go-back .jb-go-back-text {
 	font-size: 18px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4), 0 0 5px rgba(0,0,0,0.2);
 }
 .jb-idx-thb-list-page-number {
 }

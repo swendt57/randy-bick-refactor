@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery
-	buttonBarPosition="overlay"
-	backButtonPosition="overlay"
+	buttonBarPosition="overlay_image"
+	showSmallBackButton="true"
+	backButtonPosition="top"
 	backButtonText="Back to Families"
 	backButtonUrl="../../../families.html"
-	showSmallBackButton="true"
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
 	displayTime="3"
@@ -16,89 +16,89 @@
 	thumbWidth="170"
 	thumbHeight="85"
 	thumbCornerRadius="5"
-	maxThumRows="1"
-	thumbSelectedFrameWidth="2"
-	thumbHoverFrameWidth="2"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 	captionPosition="none"
 >
 
-  <image imageURL="images/001.jpg"
-	thumbURL="thumbs/001.jpg"
-	linkURL="images/001.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/002-003.jpg"
-	thumbURL="thumbs/002-003.jpg"
-	linkURL="images/002-003.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/004-005.jpg"
-	thumbURL="thumbs/004-005.jpg"
-	linkURL="images/004-005.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/006-007.jpg"
-	thumbURL="thumbs/006-007.jpg"
-	linkURL="images/006-007.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/008-009.jpg"
-	thumbURL="thumbs/008-009.jpg"
-	linkURL="images/008-009.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/010-011.jpg"
-	thumbURL="thumbs/010-011.jpg"
-	linkURL="images/010-011.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/012-013.jpg"
-	thumbURL="thumbs/012-013.jpg"
-	linkURL="images/012-013.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/014-015.jpg"
-	thumbURL="thumbs/014-015.jpg"
-	linkURL="images/014-015.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/016-017.jpg"
-	thumbURL="thumbs/016-017.jpg"
-	linkURL="images/016-017.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/018-019.jpg"
-	thumbURL="thumbs/018-019.jpg"
-	linkURL="images/018-019.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/020.jpg"
-	thumbURL="thumbs/020.jpg"
-	linkURL="images/020.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  
+	<image imageURL="images/001.jpg"
+		   thumbURL="thumbs/001.jpg"
+		   linkURL="images/001.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/002-003.jpg"
+		   thumbURL="thumbs/002-003.jpg"
+		   linkURL="images/002-003.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/004-005.jpg"
+		   thumbURL="thumbs/004-005.jpg"
+		   linkURL="images/004-005.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/006-007.jpg"
+		   thumbURL="thumbs/006-007.jpg"
+		   linkURL="images/006-007.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/008-009.jpg"
+		   thumbURL="thumbs/008-009.jpg"
+		   linkURL="images/008-009.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/010-011.jpg"
+		   thumbURL="thumbs/010-011.jpg"
+		   linkURL="images/010-011.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/012-013.jpg"
+		   thumbURL="thumbs/012-013.jpg"
+		   linkURL="images/012-013.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/014-015.jpg"
+		   thumbURL="thumbs/014-015.jpg"
+		   linkURL="images/014-015.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/016-017.jpg"
+		   thumbURL="thumbs/016-017.jpg"
+		   linkURL="images/016-017.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/018-019.jpg"
+		   thumbURL="thumbs/018-019.jpg"
+		   linkURL="images/018-019.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/020.jpg"
+		   thumbURL="thumbs/020.jpg"
+		   linkURL="images/020.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+
 </juiceboxgallery>
