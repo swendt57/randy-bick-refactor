@@ -22,6 +22,7 @@
 	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 	captionPosition="none"
+	showSplashPage="never"
 >
 <!-- backButtonUseIcon="true" -->
   <image imageURL="images/001.jpg"

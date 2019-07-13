@@ -103,8 +103,8 @@ Since this is a basic website and not an application, testing was limited to tes
   the current version.
   * Then expanded collapsible nav bar was hidden beneath the galleries. Using developer tools, I discovered that the galleries 
   had an extremely high z-index, some I gave the nav an even higher value.
-  * Inconsistent behavior on smaller screen sizes. The presentations vary somewhat from phone OS to phone OS. I am having to live with that. 
-
+  * Inconsistent behavior on smaller screen sizes. The presentations vary somewhat from phone OS to phone OS. However, they 
+  work on all tested phones.
 
 ### Deployment
  I have deployed the code using GitHub pages at https://swendt57.github.io/randy-bick-refactor as well as below a subfolder

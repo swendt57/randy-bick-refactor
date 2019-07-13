@@ -22,8 +22,9 @@
 	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 	captionPosition="none"
+	showSplashPage="never"
 >
-<!-- backButtonUseIcon="true" -->
+
   <image imageURL="images/Fine-Art-001.jpg"
 	thumbURL="thumbs/Fine-Art-001.jpg"
 	linkURL="images/Fine-Art-001.jpg"
