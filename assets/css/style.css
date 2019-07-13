@@ -20,12 +20,12 @@ body {
 }
 
 section {
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 h3 {
     color: #ea8f20;
-    margin: 15px 0 30px 0;
+    margin: 15px 0 25px 0;
 }
 
 img {
@@ -56,7 +56,7 @@ a:hover {
         font-size: 1.05rem;
     }
     h3 {
-        margin:30px 0 35px 0;
+        margin:25px 0 25px 0;
     }
 }
 
@@ -66,7 +66,7 @@ a:hover {
         font-size: 1.1rem;
     }
     h3 {
-        margin: 40px 0 40px 0;
+        margin: 30px 0 30px 0;
     }
 }
 
@@ -79,7 +79,7 @@ a:hover {
     width: 100%;
     height: 91px;
     background: black;
-    box-shadow: 1px 1px 5px 5px rgba(255,255,255,0.15);
+    box-shadow: 1px 1px 5px 5px rgba(255,255,255,0.25);
     z-index: 1050;
 }
 
@@ -182,6 +182,10 @@ a.navbar-brand {
 
 
 /* --------------------Home Page-------------------- */
+section.home-container {
+    padding-top: 140px;
+}
+
 #skyline {
     width: 90%;
     border: 1.5px solid #ea8f20;
@@ -373,7 +377,9 @@ jb-splash {
 /* --------------------Contact Us Page-------------------- */
 
 .contact-container {
+    width: 98%;
     max-width: 800px;
+    font-size: 14px;
 }
 
 #photography_inquiry input, textarea {
