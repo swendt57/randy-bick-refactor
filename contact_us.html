@@ -14,6 +14,30 @@
 
     <script src="assets/scripts/include_script.js"></script> <!-- function that mimics SSI -->
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_cmIiTnOu72DYt1Ekcc8CJ");
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('photography_inquiry').addEventListener('submit', function(event) {
+                event.preventDefault();
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // alert("email triggered");
+                emailjs.sendForm('default_service', 'photo_request', this)
+                    .then(function(response) {
+                        console.log('SUCCESS!', response.status, response.text);
+                        window.location="thank-you.html";
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                        window.location="email_error.html";
+                    });;
+            });
+        }
+    </script>
+
     <script language="javascript" type="text/javascript">
 
         function validateForm() {
@@ -72,10 +96,11 @@
 
             <p>For questions or to place on order, please complete and submit the following information so we can contact you:</p>
 
-            <form action="assets/scripts/process.php" method="post" name="photography_inquiry" id="photography_inquiry" onsubmit="return validateForm()">
+            <form id="photography_inquiry" onsubmit="return validateForm()">
 
                 <div class="container">
                 <input type="hidden" name="success" value="http://www.randybick.com/thank-you.html">
+                    <input type="hidden" name="contact_number">
 
                     <div class="row">
                         <div class="col-4 text-right align-self-center"><label for="name">Name:</label></div>
