@@ -395,6 +395,12 @@ jb-splash {
     border-width: 4px;
 }
 
+#loadingGIF {
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+
 /* --------------------Footer-------------------- */
 
 #copyright {

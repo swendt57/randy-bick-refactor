@@ -19,13 +19,17 @@
         (function(){
             emailjs.init("user_cmIiTnOu72DYt1Ekcc8CJ");
         })();
+
+        function showLoading() {
+            $("#loadingGIF").show();
+        }
     </script>
     <script type="text/javascript">
         window.onload = function() {
             document.getElementById('photography_inquiry').addEventListener('submit', function(event) {
                 event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
-                // alert("email triggered");
+                showLoading();
                 emailjs.sendForm('default_service', 'photo_request', this)
                     .then(function(response) {
                         console.log('SUCCESS!', response.status, response.text);
@@ -33,7 +37,7 @@
                     }, function(error) {
                         console.log('FAILED...', error);
                         window.location="email_error.html";
-                    });;
+                    });
             });
         }
     </script>
@@ -123,8 +127,11 @@
                         <div class="col-4 text-right align-self-center"><label for="comments">What can we do for you?:</label></div>
                         <div class="col-8"><textarea id="comments" name="required-comments" class="commentbox" required></textarea></div>
                     </div>
-                    <div class="row text-right">
-                        <div class="col-12"><input type="submit" class="btn btn-primary" value="Submit"> <input type="reset" class="btn btn-secondary" value="Reset Form"></div>
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <input type="submit"class="btn btn-primary" value="Submit">
+                            <img id="loadingGIF" src="https://media.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.gif"/>
+                            <input type="reset" class="btn btn-secondary" value="Reset Form"></div>
                     </div>
 
                 </div>
