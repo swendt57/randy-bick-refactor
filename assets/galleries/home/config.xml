@@ -21,6 +21,7 @@
 	thumbHoverFrameWidth="3"
 	showAutoPlayButton="true"
 	captionPosition="none"
+	showSplashPage="never"
 >
 
   <image imageURL="images/000.jpg"
