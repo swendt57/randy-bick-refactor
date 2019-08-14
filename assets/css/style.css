@@ -50,6 +50,10 @@ a:hover {
     text-decoration: none;
 }
 
+.no-italics {
+    font-style: normal;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
     body {
